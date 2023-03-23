@@ -55,11 +55,13 @@
 	partopsep=0pt,
 	noitemsep,
 }
+\usepackage[justification=centering]{caption}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{float}
 
-% \usepackage{tabularx}
+\usepackage{tabularx}
 % \usepackage{booktabs}
 % \usepackage{longtable}
 
@@ -70,6 +72,7 @@
 
 \usepackage{xcolor} % COLORARE PARTE DEL DOCUMENTO
 \usepackage{graphicx} % IMMAGINI INCLUDE
+\graphicspath{{./immagini/Miniprep}}
 \usepackage{tikz} % GRAFICA E MOLTO ALTRO
 \usetikzlibrary{
 	arrows,
@@ -96,6 +99,7 @@
 	linkcolor=blue,
 }
 \usepackage[numbered]{bookmark}
+
 \input{command.sty} % MIEI COMANDI
 
 \hbadness=50000

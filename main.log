@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.10)  14 MAR 2023 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.10)  23 MAR 2023 11:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/media/mattia/OS/Users/39333/OneDrive/Desktop/STUDIO/2_anno/Lab_Biologia_Molecolare/Relazioni_Laboratorio/main.tex
-(/media/mattia/OS/Users/39333/OneDrive/Desktop/STUDIO/2_anno/Lab_Biologia_Molecolare/Relazioni_Laboratorio/main.tex
+**/home/mattia/Scrivania/STUDIO/2_anno/Lab_Biologia_Molecolare/Relazioni_Laboratorio/main.tex
+(/home/mattia/Scrivania/STUDIO/2_anno/Lab_Biologia_Molecolare/Relazioni_Laboratorio/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -760,171 +760,196 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box90
 \enit@count@id=\count345
 \enitdp@description=\count346
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen348
+\captionmargin=\dimen349
+\caption@leftmargin=\dimen350
+\caption@rightmargin=\dimen351
+\caption@width=\dimen352
+\caption@indent=\dimen353
+\caption@parindent=\dimen354
+\caption@hangindent=\dimen355
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count347
+\c@continuedfloat=\count348
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count347
+\c@float@type=\count349
 \float@exts=\toks46
 \float@box=\box91
 \@float@everytoks=\toks47
 \@floatcapt=\box92
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen356
+\TX@old@table=\dimen357
+\TX@old@col=\dimen358
+\TX@target=\dimen359
+\TX@delta=\dimen360
+\TX@cols=\count350
+\TX@ftn=\toks48
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count348
-\l__tblr_c_int=\count349
-\l__tblr_r_int=\count350
-\l__tblr_d_dim=\dimen348
-\l__tblr_h_dim=\dimen349
-\l__tblr_o_dim=\dimen350
-\l__tblr_p_dim=\dimen351
-\l__tblr_q_dim=\dimen352
-\l__tblr_r_dim=\dimen353
-\l__tblr_s_dim=\dimen354
-\l__tblr_t_dim=\dimen355
-\l__tblr_v_dim=\dimen356
-\l__tblr_w_dim=\dimen357
+\l__tblr_a_int=\count351
+\l__tblr_c_int=\count352
+\l__tblr_r_int=\count353
+\l__tblr_d_dim=\dimen361
+\l__tblr_h_dim=\dimen362
+\l__tblr_o_dim=\dimen363
+\l__tblr_p_dim=\dimen364
+\l__tblr_q_dim=\dimen365
+\l__tblr_r_dim=\dimen366
+\l__tblr_s_dim=\dimen367
+\l__tblr_t_dim=\dimen368
+\l__tblr_v_dim=\dimen369
+\l__tblr_w_dim=\dimen370
 \l__tblr_a_box=\box93
 \l__tblr_b_box=\box94
 \l__tblr_c_box=\box95
 \l__tblr_d_box=\box96
-\g__tblr_table_count_int=\count351
-\c@rownum=\count352
-\c@colnum=\count353
-\c@rowcount=\count354
-\c@colcount=\count355
-\abovesep=\dimen358
-\belowsep=\dimen359
-\leftsep=\dimen360
-\rightsep=\dimen361
-\g_tblr_level_int=\count356
-\g__tblr_data_row_key_count_int=\count357
-\g__tblr_data_column_key_count_int=\count358
-\g__tblr_data_cell_key_count_int=\count359
-\g__tblr_array_int=\count360
-\l__tblr_key_count_int=\count361
-\l__tblr_key_quotient_int=\count362
-\l__tblr_key_quotient_two_int=\count363
-\l__tblr_key_remainder_int=\count364
-\g__tblr_data_str_value_count_int=\count365
-\rulewidth=\dimen362
-\l__tblr_strut_dp_dim=\dimen363
-\l__tblr_strut_ht_dim=\dimen364
-\g__tblr_cell_wd_dim=\dimen365
-\g__tblr_cell_ht_dim=\dimen366
-\g__tblr_cell_head_dim=\dimen367
-\g__tblr_cell_foot_dim=\dimen368
-\l__column_target_dim=\dimen369
+\g__tblr_table_count_int=\count354
+\c@rownum=\count355
+\c@colnum=\count356
+\c@rowcount=\count357
+\c@colcount=\count358
+\abovesep=\dimen371
+\belowsep=\dimen372
+\leftsep=\dimen373
+\rightsep=\dimen374
+\g_tblr_level_int=\count359
+\g__tblr_data_row_key_count_int=\count360
+\g__tblr_data_column_key_count_int=\count361
+\g__tblr_data_cell_key_count_int=\count362
+\g__tblr_array_int=\count363
+\l__tblr_key_count_int=\count364
+\l__tblr_key_quotient_int=\count365
+\l__tblr_key_quotient_two_int=\count366
+\l__tblr_key_remainder_int=\count367
+\g__tblr_data_str_value_count_int=\count368
+\rulewidth=\dimen375
+\l__tblr_strut_dp_dim=\dimen376
+\l__tblr_strut_ht_dim=\dimen377
+\g__tblr_cell_wd_dim=\dimen378
+\g__tblr_cell_ht_dim=\dimen379
+\g__tblr_cell_head_dim=\dimen380
+\g__tblr_cell_foot_dim=\dimen381
+\l__column_target_dim=\dimen382
 \l__tblr_caption_box=\box97
 \l__tblr_caption_left_box=\box98
 \l__tblr_row_head_box=\box99
 \l__tblr_row_foot_box=\box100
-\l__tblr_row_head_foot_dim=\dimen370
-\tablewidth=\dimen371
+\l__tblr_row_head_foot_dim=\dimen383
+\tablewidth=\dimen384
 \l__tblr_table_firsthead_box=\box101
 \l__tblr_table_middlehead_box=\box102
 \l__tblr_table_lasthead_box=\box103
 \l__tblr_table_firstfoot_box=\box104
 \l__tblr_table_middlefoot_box=\box105
 \l__tblr_table_lastfoot_box=\box106
-\l__tblr_remain_height_dim=\dimen372
-\l__tblr_long_from_int=\count366
-\l__tblr_long_to_int=\count367
-\l__tblr_curr_i_int=\count368
-\l__tblr_prev_i_int=\count369
-\l__tblr_table_page_int=\count370
+\l__tblr_remain_height_dim=\dimen385
+\l__tblr_long_from_int=\count369
+\l__tblr_long_to_int=\count370
+\l__tblr_curr_i_int=\count371
+\l__tblr_prev_i_int=\count372
+\l__tblr_table_page_int=\count373
 \l__tblr_table_head_box=\box107
 \l__tblr_table_foot_box=\box108
-\l__tblr_table_head_foot_dim=\dimen373
-\l__tblr_table_head_body_foot_dim=\dimen374
+\l__tblr_table_head_foot_dim=\dimen386
+\l__tblr_table_head_body_foot_dim=\dimen387
 \l__tblr_table_box=\box109
 \l__tblr_table_hlines_box=\box110
 \l__tblr_hline_box=\box111
 \l__tblr_row_box=\box112
-\l__tblr_col_o_wd_dim=\dimen375
-\l__tblr_col_b_wd_dim=\dimen376
-\l__tblr_hline_leftskip_dim=\dimen377
-\l__tblr_hline_rightskip_dim=\dimen378
-\l__tblr_row_ht_dim=\dimen379
-\l__tblr_row_dp_dim=\dimen380
-\l__tblr_row_abovesep_dim=\dimen381
-\l__tblr_row_belowsep_dim=\dimen382
+\l__tblr_col_o_wd_dim=\dimen388
+\l__tblr_col_b_wd_dim=\dimen389
+\l__tblr_hline_leftskip_dim=\dimen390
+\l__tblr_hline_rightskip_dim=\dimen391
+\l__tblr_row_ht_dim=\dimen392
+\l__tblr_row_dp_dim=\dimen393
+\l__tblr_row_abovesep_dim=\dimen394
+\l__tblr_row_belowsep_dim=\dimen395
 \l__tblr_row_vlines_box=\box113
 \l__tblr_vline_box=\box114
 \l__tblr_cell_box=\box115
-\l__row_upper_dim=\dimen383
-\l__row_lower_dim=\dimen384
-\l__row_vpace_dim=\dimen385
-\l__tblr_vline_aboveskip_dim=\dimen386
-\l__tblr_vline_belowskip_dim=\dimen387
-\l__tblr_cell_wd_dim=\dimen388
-\l__tblr_cell_ht_dim=\dimen389
+\l__row_upper_dim=\dimen396
+\l__row_lower_dim=\dimen397
+\l__row_vpace_dim=\dimen398
+\l__tblr_vline_aboveskip_dim=\dimen399
+\l__tblr_vline_belowskip_dim=\dimen400
+\l__tblr_cell_wd_dim=\dimen401
+\l__tblr_cell_ht_dim=\dimen402
 \l__tblr_diag_box=\box116
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/nicematrix/nicematrix.sty
 Package: nicematrix 2023/03/06 v6.16 Enhanced arrays with the help of PGF/TikZ
-\g__nicematrix_env_int=\count371
-\g__nicematrix_NiceMatrixBlock_int=\count372
-\l__nicematrix_note_in_caption_int=\count373
-\l__nicematrix_columns_width_dim=\dimen390
-\l__nicematrix_col_width_dim=\dimen391
-\g__nicematrix_row_total_int=\count374
-\g__nicematrix_col_total_int=\count375
-\g__nicematrix_last_row_node_int=\count376
-\l__nicematrix_key_nb_rows_int=\count377
-\g__nicematrix_blocks_wd_dim=\dimen392
-\g__nicematrix_blocks_ht_dim=\dimen393
-\g__nicematrix_blocks_dp_dim=\dimen394
-\l__nicematrix_width_dim=\dimen395
-\l__nicematrix_tabular_width_dim=\dimen396
-\l__nicematrix_rule_width_dim=\dimen397
-\l__nicematrix_old_iRow_int=\count378
-\l__nicematrix_old_jCol_int=\count379
-\g__nicematrix_total_X_weight_int=\count380
-\l__nicematrix_X_columns_dim=\dimen398
-\l__nicematrix_x_initial_dim=\dimen399
-\l__nicematrix_y_initial_dim=\dimen400
-\l__nicematrix_x_final_dim=\dimen401
-\l__nicematrix_y_final_dim=\dimen402
-\l__nicematrix_tmpc_dim=\dimen403
-\l__nicematrix_tmpd_dim=\dimen404
-\g__nicematrix_width_last_col_dim=\dimen405
-\g__nicematrix_width_first_col_dim=\dimen406
-\l__nicematrix_row_min_int=\count381
-\l__nicematrix_row_max_int=\count382
-\l__nicematrix_col_min_int=\count383
-\l__nicematrix_col_max_int=\count384
-\g__nicematrix_static_num_of_col_int=\count385
-\l__nicematrix_rounded_corners_dim=\dimen407
-\l__nicematrix_line_width_dim=\dimen408
-\g__nicematrix_block_box_int=\count386
-\l__nicematrix_submatrix_extra_height_dim=\dimen409
-\l__nicematrix_submatrix_left_xshift_dim=\dimen410
-\l__nicematrix_submatrix_right_xshift_dim=\dimen411
-\l__nicematrix_first_row_int=\count387
-\l__nicematrix_first_col_int=\count388
-\l__nicematrix_last_row_int=\count389
-\l__nicematrix_last_col_int=\count390
-\c@tabularnote=\count391
-\c@nicematrix_draft=\count392
-\l__nicematrix_cell_space_top_limit_dim=\dimen412
-\l__nicematrix_cell_space_bottom_limit_dim=\dimen413
-\l__nicematrix_xdots_inter_dim=\dimen414
-\l__nicematrix_xdots_shorten_start_dim=\dimen415
-\l__nicematrix_xdots_shorten_end_dim=\dimen416
-\l__nicematrix_xdots_radius_dim=\dimen417
-\l__nicematrix_notes_above_space_dim=\dimen418
-\l__nicematrix_left_margin_dim=\dimen419
-\l__nicematrix_right_margin_dim=\dimen420
-\l__nicematrix_extra_left_margin_dim=\dimen421
-\l__nicematrix_extra_right_margin_dim=\dimen422
-\c__nicematrix_max_l_dim=\dimen423
-\l__nicematrix_position_int=\count393
-\l__nicematrix_start_int=\count394
-\l__nicematrix_multiplicity_int=\count395
-\l__nicematrix_brace_yshift_dim=\dimen424
+\g__nicematrix_env_int=\count374
+\g__nicematrix_NiceMatrixBlock_int=\count375
+\l__nicematrix_note_in_caption_int=\count376
+\l__nicematrix_columns_width_dim=\dimen403
+\l__nicematrix_col_width_dim=\dimen404
+\g__nicematrix_row_total_int=\count377
+\g__nicematrix_col_total_int=\count378
+\g__nicematrix_last_row_node_int=\count379
+\l__nicematrix_key_nb_rows_int=\count380
+\g__nicematrix_blocks_wd_dim=\dimen405
+\g__nicematrix_blocks_ht_dim=\dimen406
+\g__nicematrix_blocks_dp_dim=\dimen407
+\l__nicematrix_width_dim=\dimen408
+\l__nicematrix_tabular_width_dim=\dimen409
+\l__nicematrix_rule_width_dim=\dimen410
+\l__nicematrix_old_iRow_int=\count381
+\l__nicematrix_old_jCol_int=\count382
+\g__nicematrix_total_X_weight_int=\count383
+\l__nicematrix_X_columns_dim=\dimen411
+\l__nicematrix_x_initial_dim=\dimen412
+\l__nicematrix_y_initial_dim=\dimen413
+\l__nicematrix_x_final_dim=\dimen414
+\l__nicematrix_y_final_dim=\dimen415
+\l__nicematrix_tmpc_dim=\dimen416
+\l__nicematrix_tmpd_dim=\dimen417
+\g__nicematrix_width_last_col_dim=\dimen418
+\g__nicematrix_width_first_col_dim=\dimen419
+\l__nicematrix_row_min_int=\count384
+\l__nicematrix_row_max_int=\count385
+\l__nicematrix_col_min_int=\count386
+\l__nicematrix_col_max_int=\count387
+\g__nicematrix_static_num_of_col_int=\count388
+\l__nicematrix_rounded_corners_dim=\dimen420
+\l__nicematrix_line_width_dim=\dimen421
+\g__nicematrix_block_box_int=\count389
+\l__nicematrix_submatrix_extra_height_dim=\dimen422
+\l__nicematrix_submatrix_left_xshift_dim=\dimen423
+\l__nicematrix_submatrix_right_xshift_dim=\dimen424
+\l__nicematrix_first_row_int=\count390
+\l__nicematrix_first_col_int=\count391
+\l__nicematrix_last_row_int=\count392
+\l__nicematrix_last_col_int=\count393
+\c@tabularnote=\count394
+\c@nicematrix_draft=\count395
+\l__nicematrix_cell_space_top_limit_dim=\dimen425
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen426
+\l__nicematrix_xdots_inter_dim=\dimen427
+\l__nicematrix_xdots_shorten_start_dim=\dimen428
+\l__nicematrix_xdots_shorten_end_dim=\dimen429
+\l__nicematrix_xdots_radius_dim=\dimen430
+\l__nicematrix_notes_above_space_dim=\dimen431
+\l__nicematrix_left_margin_dim=\dimen432
+\l__nicematrix_right_margin_dim=\dimen433
+\l__nicematrix_extra_left_margin_dim=\dimen434
+\l__nicematrix_extra_right_margin_dim=\dimen435
+\c__nicematrix_max_l_dim=\dimen436
+\l__nicematrix_position_int=\count396
+\l__nicematrix_start_int=\count397
+\l__nicematrix_multiplicity_int=\count398
+\l__nicematrix_brace_yshift_dim=\dimen437
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen425
+\arrowsize=\dimen438
 )) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
@@ -994,11 +1019,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count396
+\c@section@level=\count399
 )
-\@linkdim=\dimen426
-\Hy@linkcounter=\count397
-\Hy@pagecounter=\count398
+\@linkdim=\dimen439
+\Hy@linkcounter=\count400
+\Hy@pagecounter=\count401
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -1008,7 +1033,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count399
+\Hy@SavedSpaceFactor=\count402
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -1035,19 +1060,19 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 ))
-\c@Hy@tempcnt=\count400
+\c@Hy@tempcnt=\count403
  (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen427
+\XeTeXLinkMargin=\dimen440
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 )
-\Fld@menulength=\count401
-\Field@Width=\dimen428
-\Fld@charsize=\dimen429
+\Fld@menulength=\count404
+\Field@Width=\dimen441
+\Fld@charsize=\dimen442
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1055,54 +1080,54 @@ Package hyperref Info: backreferencing ON on input line 6055.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-\Hy@abspage=\count402
-\c@Item=\count403
-\c@Hfootnote=\count404
+\Hy@abspage=\count405
+\c@Item=\count406
+\c@Hfootnote=\count407
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
-\Fld@listcount=\count405
-\c@bookmark@seq@number=\count406
+\Fld@listcount=\count408
+\c@bookmark@seq@number=\count409
 \Hy@SectionHShift=\skip114
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 97.
+Package hyperref Info: Option `colorlinks' set `true' on input line 100.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count407
+\BKM@id=\count410
 )) (./command.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ))
 
 Package chemmacros Info: Using float defining method `float'.
 
-\@float@every@scheme=\toks48
-\c@scheme=\count408
+\@float@every@scheme=\toks49
+\c@scheme=\count411
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Info: Redefining \it@ocap on input line 105.
-LaTeX Info: Redefining \it@ccap on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Info: Redefining \it@ocap on input line 109.
+LaTeX Info: Redefining \it@ccap on input line 109.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1138,49 +1163,54 @@ LaTeX Info: Redefining \it@ccap on input line 105.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 105.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 109.
 
-Package chemgreek Info: Activating mapping `upgreek' on line 105.
+Package chemgreek Info: Activating mapping `upgreek' on line 109.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count409
-\scratchdimen=\dimen430
+\scratchcounter=\count412
+\scratchdimen=\dimen443
 \scratchbox=\box137
-\nofMPsegments=\count410
-\nofMParguments=\count411
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count412
-\MPscratchDim=\dimen431
-\MPnumerator=\count413
-\makeMPintoPDFobject=\count414
-\everyMPtoPDFconversion=\toks50
+\nofMPsegments=\count413
+\nofMParguments=\count414
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count415
+\MPscratchDim=\dimen444
+\MPnumerator=\count416
+\makeMPintoPDFobject=\count417
+\everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/ninecolors/ninecolors.sty
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 109.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 109.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c@tabularnotesi=\count415
-\enitdp@tabularnotes=\count416
-\c@tabularnotes*i=\count417
-\enitdp@tabularnotes*=\count418
-Package hyperref Info: Link coloring ON on input line 105.
+\c@tabularnotesi=\count418
+\enitdp@tabularnotes=\count419
+\c@tabularnotes*i=\count420
+\enitdp@tabularnotes*=\count421
+Package hyperref Info: Link coloring ON on input line 109.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/elements/elements_names_english.def)
 <main-frn.pdf, id=7, 597.50829pt x 845.0471pt>
 File: main-frn.pdf Graphic file (type pdf)
 <use main-frn.pdf>
-Package pdftex.def Info: main-frn.pdf  used on input line 107.
+Package pdftex.def Info: main-frn.pdf  used on input line 111.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [1
 Non-PDF special ignored!
@@ -1194,7 +1224,7 @@ Non-PDF special ignored!
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \end{titlepage}
+l.144 \end{titlepage}
                       [1] (./capitoli/Miniprep.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/locale/de/babel-german.tex
 Package babel Info: Importing basic data for german
 (babel)             from babel-de.ini. Reported on input line 25.
@@ -1205,21 +1235,98 @@ Package babel Info: Importing basic data for english
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \end{enumerate}
-                     [1]) [2] (./main.aux) ) 
+l.37 \end{enumerate}
+                     [1] [2]
+<./immagini/Miniprep/02.jpeg, id=116, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/02.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/02.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/02.jpeg  used on input line 68.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/03.jpeg, id=118, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/03.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/03.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/03.jpeg  used on input line 68.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/04.jpeg, id=120, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/04.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/04.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/04.jpeg  used on input line 68.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/05.jpeg, id=122, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/05.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/05.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/05.jpeg  used on input line 77.
+(pdftex.def)             Requested size: 113.8093pt x 170.70058pt.
+<./immagini/Miniprep/06.jpeg, id=124, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/06.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/06.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/06.jpeg  used on input line 77.
+(pdftex.def)             Requested size: 113.80704pt x 170.71382pt.
+<./immagini/Miniprep/16.jpeg, id=126, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/16.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/16.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/16.jpeg  used on input line 77.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/07.jpeg, id=128, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/07.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/07.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/07.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/08.jpeg, id=130, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/08.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/08.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/08.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/09.jpeg, id=132, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/09.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/09.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/09.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/10.jpeg, id=134, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/10.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/10.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/10.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/11.jpeg, id=136, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/11.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/11.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/11.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/12.jpeg, id=138, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/12.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/12.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/12.jpeg  used on input line 95.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+ [3 <./immagini/Miniprep/02.jpeg> <./immagini/Miniprep/03.jpeg> <./immagini/Miniprep/04.jpeg> <./immagini/Miniprep/05.jpeg> <./immagini/Miniprep/06.jpeg> <./immagini/Miniprep/16.jpeg> <./immagini/Miniprep/07.jpeg> <./immagini/Miniprep/08.jpeg> <./immagini/Miniprep/09.jpeg>]
+<./immagini/Miniprep/13.jpeg, id=155, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/13.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/13.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/13.jpeg  used on input line 104.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+<./immagini/Miniprep/14.jpeg, id=157, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/14.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/14.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/14.jpeg  used on input line 104.
+(pdftex.def)             Requested size: 113.81223pt x 170.71382pt.
+<./immagini/Miniprep/15.jpeg, id=159, 1541.76pt x 2055.68pt>
+File: ./immagini/Miniprep/15.jpeg Graphic file (type jpg)
+<use ./immagini/Miniprep/15.jpeg>
+Package pdftex.def Info: ./immagini/Miniprep/15.jpeg  used on input line 104.
+(pdftex.def)             Requested size: 113.80687pt x 170.71382pt.
+) [4 <./immagini/Miniprep/10.jpeg> <./immagini/Miniprep/11.jpeg> <./immagini/Miniprep/12.jpeg> <./immagini/Miniprep/13.jpeg> <./immagini/Miniprep/14.jpeg> <./immagini/Miniprep/15.jpeg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 41008 strings out of 476024
- 932581 string characters out of 5790024
+ 42523 strings out of 476024
+ 962630 string characters out of 5790024
  1864388 words of memory out of 5000000
- 60793 multiletter control sequences out of 15000+600000
- 529231 words of font info for 77 fonts, out of 8000000 for 9000
+ 62261 multiletter control sequences out of 15000+600000
+ 533030 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,118p,621b,1180s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (4 pages, 166109 bytes).
+ 117i,12n,118p,598b,1182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (6 pages, 3354302 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

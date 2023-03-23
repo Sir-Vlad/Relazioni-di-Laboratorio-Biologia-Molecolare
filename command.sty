@@ -7,3 +7,26 @@
 
 \RequirePackage{xspace}
 \newcommand{\slz}{Soluzione\xspace}
+
+
+\newcommand{\img}[4]{
+	\captionsetup{type=figure,font=small}
+	\begin{center}
+		\includegraphics[width=4cm,height=6cm,#4]{#1}
+		% \captionof{figure}{#2}
+		\caption{#2}
+		\label{img:#3}
+	\end{center}
+}
+
+\newcommand{\photo}[3]{
+	\begin{minipage}{0.3\linewidth}
+		#1
+	\end{minipage}
+	\begin{minipage}{0.3\linewidth}
+		#2
+	\end{minipage}
+	\begin{minipage}{0.3\linewidth}
+	#3
+	\end{minipage}
+}

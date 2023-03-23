@@ -8,4 +8,4 @@
 \contentsline {subsubsection}{\numberline {A}Preparazione del campione}{1}{subsubsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {B}Depurazione del campione}{1}{subsubsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {C}Trattamento con fenolo-cloroformio}{2}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {D}Conservzione del DNA plasmidico}{2}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {D}Conservazione del DNA plasmidico}{2}{subsubsection.1.2.4}%
