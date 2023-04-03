@@ -25,7 +25,7 @@
 
 
 \subsection{Protocollo}
-\paragraph{Preparazione della reazione di digestione}
+\subsubsection{Preparazione della reazione di digestione}
 \begin{enumerate}
 	\item Preparare in due \foreignlanguage{german}{Eppendorf} da \qty{1.5}{\ml} due campioni, i quali sono:
 	\begin{itemize}
@@ -47,7 +47,7 @@
 	\item Vortexare e centrifugare le due soluzioni
 	\item Lasciare le soluzioni a digerire per \qtyrange{1}{2}{\hour} a \qty{37}{\celsius}
 \end{enumerate}
-\paragraph{Preparazione del gel di agarosio}
+\subsubsection{Preparazione del gel di agarosio}
 \begin{enumerate}
 	\item Pesare con una beuta \qty{0.6}{\g} di agarosio sulla bilancia tecnica 
 	\item In cilindro mettere \qty{1.6}{\ml} di TAE 50X e poi portare a volume di \qty{80}{\ml} con \ch{H2O}, versare il tutto nella beuta contenete agarosio
@@ -58,7 +58,7 @@
 	\item Aspettare che il gel si solidifichi, dopo di ciò rimuovere il pettinino
 \end{enumerate}
 
-\paragraph{Elettroforesi}
+\subsubsection{Elettroforesi}
 \begin{enumerate}
 	\item Inserire la vaschetta nello strumento per la corsa elettroforetica e ricoprirla con \qty{250}{\ml} di buffer di corsa (TAE 1X) 
 	\item Aggiungere ai campioni da inserire \qty{5}{\micro\litre} di \foreignlanguage{english}{Sample Buffer}
@@ -73,14 +73,52 @@
 	\item Una volta finita la corsa, guardare il gel agli UV, per constatare se la digestione è avvenuta
 \end{enumerate}
 
-
-
-
-
-
 \begingroup
 	\newpage
+	\newgeometry{top=.5in,bottom=.5in}
 	\photo{
+		\img{3-01}{\\\slz DNA\\ senza enzima}{img:3-01}{trim={5cm 20cm 15cm 20cm},clip}		
+	}{
+		\img{3-02}{\\\slz DNA\\ con enzima}{img:3-02}{trim={10cm 30cm 10cm 10cm},clip}
+	}{
+		\img{3-03}{\\\slz di agarosio\\ (prima del riscaldamento)}{img:3-03}{}		
+	}
+
+	\vspace{.15cm}
+	\photo{
+		\img{3-04}{\\\slz di agarosio\\ (dopo del riscaldamento)}{img:3-04}{trim={15cm 0 15cm 0},clip}		
+	}{
+		\img{3-07}{\\Aggiunta di SyberSafe\\\phantom{}}{img:3-07}{trim={5cm 20cm 5cm 0},clip}		
+	}{
+		\img{3-08}{\\Vaschetta piena\\\phantom{}}{img:3-08}{trim={5cm 10cm 5cm 10cm},clip}
+	}
+
+	\vspace{-.5cm}
+	\photo{
+		\begin{figure}[H]
+			\captionsetup{singlelinecheck=off}
+			\centering
+			\begin{annotatedFigure}
+				{\includegraphics[
+					width=4cm,
+					height=6cm,
+					]{3-16}
+				}
+				\annotatedFigureText{0.8,0.375}{black}{1}{A}
+				\annotatedFigureText{0.8,0.55}{black}{1}{B}
+				\annotatedFigureText{0.83,0.725}{black}{1}{C}
+			\end{annotatedFigure}
+			\caption[Piastra di agarosio]{\\Campioni inseriti nei pozzetti -
+			\begin{enumerate}[person,label=\Alph*]
+				\item DNA con enzima
+				\item DNA senza enzima
+				\item RNA
+			\end{enumerate}
+			}
+		\end{figure}
+	}{
+		\img{3-12}{\\Strumento per\\ l'elettroferesi\\\phantom{}\\\phantom{}}{img:3-12}{}
+	}{
 		\begin{figure}[H]
 			\captionsetup{singlelinecheck=off}
 			\centering
@@ -105,6 +143,6 @@
 				\item Marker
 			\end{enumerate}
 			}
-		\end{figure}
-	}{}{}
+		\end{figure}		
+	}
 \endgroup
