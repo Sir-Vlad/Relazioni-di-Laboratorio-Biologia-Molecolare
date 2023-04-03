@@ -16,13 +16,18 @@
 \usepackage{upgreek}
 \usepackage{siunitx} % UNITA' DI MISURA SISTEMA INTERNAZIONALE
 \sisetup{
-    range-phrase = -,
+	output-decimal-marker = {,},
+    range-phrase = --,
 	range-units = single,
 	list-units = single,
 	list-pair-separator = ~\text{e}~,
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHIMICA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \usepackage{chemmacros}
 \usepackage{chemformula}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% STILE PAGINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -72,7 +77,11 @@
 
 \usepackage{xcolor} % COLORARE PARTE DEL DOCUMENTO
 \usepackage{graphicx} % IMMAGINI INCLUDE
-\graphicspath{{./immagini/Miniprep}}
+\graphicspath{
+	{./immagini/01-Miniprep},
+	{./immagini/02-Estrazione_RNA},
+	{./immagini/03-Restrizione_DNA}
+}
 \usepackage{tikz} % GRAFICA E MOLTO ALTRO
 \usetikzlibrary{
 	arrows,
@@ -146,6 +155,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CAPITOLI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subimport*{./capitoli}{Miniprep.tex}
+\subimport*{./capitoli/}{01-Miniprep.tex}
+\subimport*{./capitoli/}{02-Estrazione_RNA_Trizol.tex}
+\subimport*{./capitoli/}{03-Restizione_DNA.tex}
 
 \end{document}

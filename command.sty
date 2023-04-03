@@ -1,14 +1,17 @@
+% comandi per la formattazione e lo style del documento
 \setcounter{tocdepth}{3}
 % \setcounter{secnumdepth}{2}
 \renewcommand{\thesubsubsection}{\Alph{subsubsection}}
 \setlength{\cftsubsubsecnumwidth}{2em}
+\AddToHook{cmd/section/before}{\clearpage}
 
-
-
+% parole ripetitive o con particolari formattazioni
 \RequirePackage{xspace}
 \newcommand{\slz}{Soluzione\xspace}
+\newcommand{\trizol}{TRIzol\xspace}
 
 
+% comandi per il collage di foto
 \newcommand{\img}[4]{
 	\captionsetup{type=figure,font=small}
 	\begin{center}
@@ -27,6 +30,33 @@
 		#2
 	\end{minipage}
 	\begin{minipage}{0.3\linewidth}
-	#3
+		#3
 	\end{minipage}
 }
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Overlay Generator - Annotated Figures v0.0.1
+% Created with http://ff.cx/latex-overlay-generator/
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\annotatedFigureBoxCustom{bottom-left}{top-right}{label}{label-position}{box-color}{label-color}{border-color}{text-color}
+% \newcommand*\annotatedFigureBoxCustom[8]{%
+% 	\draw[#5,thick,rounded corners] (#1) rectangle (#2);\node at (#4) [fill=#6,thick,shape=circle,draw=#7,inner sep=1pt,font={\sffamily\scriptsize},text=#8] {\textbf{#3}};
+% 	}
+%\annotatedFigureBox{bottom-left}{top-right}{label}{label-position}
+% \newcommand*\annotatedFigureBox[4]{
+% 	\annotatedFigureBoxCustom{#1}{#2}{#3}{#4}{green!75}{white}{black}{black}
+% 	}
+\newcommand*\annotatedFigureText[4]{
+	\node[fill=white, thick, draw=black, shape=circle, text=#2, inner sep=1pt,font={\sffamily\scriptsize}] at (#1){#4};
+	}
+\newenvironment {annotatedFigure}[1]{
+	\centering%
+	\begin{tikzpicture}%
+    \node[anchor=south west,inner sep=0] (image) at (0,0) { #1};%
+	\begin{scope}[x={(image.south east)},y={(image.north west)}]%
+	}{%
+		\end{scope}\end{tikzpicture}%
+	}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
