@@ -5,11 +5,16 @@
 \setlength{\cftsubsubsecnumwidth}{2em}
 \AddToHook{cmd/section/before}{\clearpage}
 
+\makeatletter
+\renewcommand\p@subsubsection{\thesubsection.}
+\makeatother
+
+
 % parole ripetitive o con particolari formattazioni
 \RequirePackage{xspace}
 \newcommand{\slz}{Soluzione\xspace}
 \newcommand{\trizol}{TRIzol\xspace}
-
+\newcommand{\enzima}[1]{\emph{#1}}
 
 % comandi per il collage di foto
 \newcommand{\img}[4]{
@@ -34,6 +39,8 @@
 	\end{minipage}
 }
 
+% Punti elenco
+\newcommand{\itemb}[1][]{\item \textbf{#1}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -49,9 +56,9 @@
 % 	\annotatedFigureBoxCustom{#1}{#2}{#3}{#4}{green!75}{white}{black}{black}
 % 	}
 \newcommand*\annotatedFigureText[4]{
-	\node[fill=white, thick, draw=black, shape=circle, text=#2, inner sep=1pt,font={\sffamily\scriptsize}] at (#1){#4};
+	\node[fill=white, thick, draw=black, shape=circle, text=#2, inner sep=1pt,font={\sffamily\scriptsize},#3] at (#1){#4};
 	}
-\newenvironment {annotatedFigure}[1]{
+\newenvironment{annotatedFigure}[1]{
 	\centering%
 	\begin{tikzpicture}%
     \node[anchor=south west,inner sep=0] (image) at (0,0) { #1};%

@@ -1,7 +1,7 @@
 \section{Restrizione DNA}
 \subsection{Materiali e composti utilizzati}
 \paragraph{Strumentazione}
-\begin{itemize}
+\begin{itemize}[person]
 	\item Provetta \foreignlanguage{german}{Eppendorf}
 	\item Propipetta
 	\item \foreignlanguage{english}{Vortex}
@@ -10,19 +10,16 @@
 \end{itemize}
 
 \paragraph{Composti utilizzati}
-\begin{itemize}
-	\item Buffer 10X
-	\item DNA
-	\item \emph{EcoR I}
-	\item Agarosio
-	\item TAE 50X
-	\item SyberSafe
-	\item \foreignlanguage{english}{Sample Buffer}
-	\item \foreignlanguage{english}{DNA ladder}
+\begin{itemize}[person]
+	\itemb[Buffer 10X]
+	\itemb[DNA]
+	\itemb[\enzima{EcoR I}]
+	\itemb[Agarosio]
+	\itemb[TAE 50X]
+	\itemb[SyberSafe]
+	\itemb[\foreignlanguage{english}{Sample Buffer}]
+	\itemb[\foreignlanguage{english}{DNA ladder}]
 \end{itemize}
-
-
-
 
 \subsection{Protocollo}
 \subsubsection{Preparazione della reazione di digestione}
@@ -43,11 +40,12 @@
 			\item \qty{2.5}{\micro\litre} di buffer 10X
 		\end{itemize}
 	\end{itemize}
-	I componenti vanno aggiunti in ordine decrescente del volume.
+	I componenti vanno aggiunti in ordine decrescente di volume.
 	\item Vortexare e centrifugare le due soluzioni
 	\item Lasciare le soluzioni a digerire per \qtyrange{1}{2}{\hour} a \qty{37}{\celsius}
 \end{enumerate}
-\subsubsection{Preparazione del gel di agarosio}
+
+\subsubsection{Preparazione del gel di agarosio}\label{sssec:agarosio}
 \begin{enumerate}
 	\item Pesare con una beuta \qty{0.6}{\g} di agarosio sulla bilancia tecnica 
 	\item In cilindro mettere \qty{1.6}{\ml} di TAE 50X e poi portare a volume di \qty{80}{\ml} con \ch{H2O}, versare il tutto nella beuta contenete agarosio
@@ -104,9 +102,9 @@
 					height=6cm,
 					]{3-16}
 				}
-				\annotatedFigureText{0.8,0.375}{black}{1}{A}
-				\annotatedFigureText{0.8,0.55}{black}{1}{B}
-				\annotatedFigureText{0.83,0.725}{black}{1}{C}
+				\annotatedFigureText{0.8,0.375}{black}{}{A}
+				\annotatedFigureText{0.8,0.55}{black}{}{B}
+				\annotatedFigureText{0.83,0.725}{black}{}{C}
 			\end{annotatedFigure}
 			\caption[Piastra di agarosio]{\\Campioni inseriti nei pozzetti -
 			\begin{enumerate}[person,label=\Alph*]
@@ -130,12 +128,12 @@
 					clip
 					]{3-15}
 				}
-				\annotatedFigureText{0.63,0.325}{black}{1}{A}
-				\annotatedFigureText{0.63,0.425}{black}{1}{B}
-				\annotatedFigureText{0.63,0.525}{black}{1}{C}
-				\annotatedFigureText{0.63,0.625}{black}{1}{D}
+				\annotatedFigureText{0.63,0.325}{black}{}{A}
+				\annotatedFigureText{0.63,0.425}{black}{}{B}
+				\annotatedFigureText{0.63,0.525}{black}{}{C}
+				\annotatedFigureText{0.63,0.625}{black}{}{D}
 			\end{annotatedFigure}
-			\caption[Piastra di agarosio]{\\Piastra di agarosio -
+			\caption[Piastra di agarosio]{\\Piastra di agarosio --
 			\begin{enumerate}[person,label=\Alph*]
 				\item DNA con enzima
 				\item DNA senza enzima

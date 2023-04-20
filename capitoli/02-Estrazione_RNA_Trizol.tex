@@ -1,7 +1,7 @@
 \section{Estrazione dell'RNA con \trizol}
 \subsection{Materiali e composti utilizzati}
 \paragraph{Strumentazione}
-\begin{itemize}
+\begin{itemize}[person]
 	\item Provetta \foreignlanguage{german}{Eppendorf}
 	\item Mortaio e pestello
 	\item Propipette
@@ -10,29 +10,36 @@
 \end{itemize}
 
 \paragraph{Composti utilizzati}
-\begin{itemize}
-	\item Foglie 
-	\item Azoto liquido: liquefazione dell'azoto gassoso a temperatura di \qty{-196}{\celsius}. Lo utilizziamo per facilitare la rottura delle pareti cellulari vegetali
-	\item \trizol: \slz di fenolo e tiocianato di gauanidinio, che ha il compito di denaturare le cellule e dissolvere i componenti cellulari ma di mantenere integro il DNA 
-	\item Cloroformio
-	\item Isopropanolo
-	\item Etanolo \qty{70}{\percent}
-	\item Acqua distillata
+
+\begingroup
+\sisetup{
+propagate-math-font = true ,
+reset-math-version = false
+}
+\begin{itemize}[person]
+	\itemb[Foglie verdi] 
+	\itemb[Azoto liquido]: liquefazione dell'azoto gassoso a temperatura di \qty{-196}{\celsius}. Lo utilizziamo per facilitare la rottura delle pareti cellulari vegetali
+	\itemb[\trizol]: \slz di fenolo e tiocianato di gauanidinio, che ha il compito di denaturare le cellule e dissolvere i componenti cellulari ma di mantenere integro il DNA 
+	\itemb[Cloroformio]
+	\itemb[Isopropanolo]
+	\itemb[Etanolo {\boldmath \qty{70}{\percent}}]
+	\itemb[Acqua distillata]
 \end{itemize}
+\endgroup
 
 \subsection{Protocollo}
 \begin{enumerate}
 	\item La lisi di una cellula vegetale non può avvenire esclusivamente attraverso l’utilizzo di agenti chimici, a causa della presenza della parete cellulare. Triturare le foglie in un mortaio (lisi meccanica) versando azoto liquido fino a ottenere una polvere. La bassa temperatura impedisce agli enzimi di degradare il DNA.
-	\item Trasferire circa \qty{100}{\mg} di campione (1-2 spatole) all’interno di una provetta \foreignlanguage{german}{Eppendorf} da \qty{2}{\ml}.
+	\item Trasferire circa \qty{100}{\mg} di campione (1\,--\,2 spatole) all’interno di una provetta \foreignlanguage{german}{Eppendorf} da \qty{2}{\ml}.
 	\item Sospendere i tessuti triturati in \trizol (\qty{1}{ml} per \qtyrange{50}{100}{mg} di tessuto) e vortexare per \qty{10}{\sec}.
 	\item Lasciar riposare il composto a temperatura ambiente per \qty{5}{\min} per assicurare la completa dissociazione dei complessi nucleoproteici.
 	\item Aggiungere \qty{0.2}{\ml} di cloroformio per ml di \trizol usati.
 	\item Vortexare per \qty{15}{\sec} e lasciar riposare per \qty{15}{\min} a temperatura ambiente.
 	\item Centrifuga per \qty{15}{\min} a \qty{4}{\celsius}. La centrifugazione permette di ottenere 3 fasi: 
 	\begin{itemize}
-		\item una fase organica rosso scuro/marrone contenente proteine e lipidi
-		\item un’interfase contenente DNA genomico precipitato
-		\item una fase acquosa superiore contenente l’RNA
+		\item una \emph{fase organica} rosso scuro/marrone contenente proteine e lipidi
+		\item un’\emph{interfase} contenente DNA genomico precipitato
+		\item una \emph{fase acquosa} superiore contenente l’RNA
 	\end{itemize}
 	\item Separare la fase acquosa da quella organica nella cappa chimica.
 	\item Aggiungere \qty{0.5}{ml} d'isopropanolo per \unit{\ml} di \trizol usati e mescolare.
