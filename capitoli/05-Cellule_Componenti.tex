@@ -1,23 +1,97 @@
 \section{Preparazione di terreno LB solido}
+\subsection{Materiali e composti utilizzati}
+\paragraph{Strumentazione}
+\begin{itemize}
+	\itemb[Autoclave:] è un dispositivo utilizzato per svolgere il processo di sterilizzazione delle attrezzature (\autoref{img:5-02}), mediante vapore saturo a \qty{121}{\celsius} a \qty{1}{\bar}, per una durata che varia a seconda della dimensione del carico e del suo contenuto.
+	
+	La temperatura a cui opera è stata scelta per eliminare la maggior parte dei microorganismi comuni. Il tempo di attesa eccede i \qty{20}{\min} a causa delle fasi di riscaldamento e raffreddamento dell’autoclave.
+\end{itemize}
+
+\paragraph{Composti utilizzati}
+\begin{itemize}
+	\item
+\end{itemize}
+
+\subsection{Protocollo}
+\subsection{Preparazione del terreno LB solido}
+\begin{enumerate}
+	\item Inserire nella bottiglia:
+	\begin{itemize}
+		\item \qty{0.5}{\g} di triptone
+		\item \qty{0.25}{\g} di estratto di lievito
+		\item \qty{0.25}{\g} di \ch{NaCl}
+		\item \qty{0.75}{\g} di agar batteriologico
+		\item \qty{50}{\ml} di acqua distillata
+	\end{itemize}
+	\begin{myBox}{NOTA}
+		Sulla bottiglia attaccare un pezzo di nastro adesivo da autoclave. Questo tipo di nastro ti indica se la sterilizzazione è avvenuta o meno a seconda se si è colorato di nero.
+	\end{myBox}
+	\item Sterilizzare la bottiglia in autoclave a \qty{120}{\celsius}  per \qty{20}{\min}. 
+	
+	\textbf{ATTENZIONE:} Il tappo della bottiglia deve essere allentato per evitare che esploda. 
+	\item Aspettare che la soluzione si raffreddi.
+	\item Dividere la soluzione autoclavata in due da 25 mL (una in una falcon sterile) per la preparazione delle piastre:
+	\begin{enumerate}[label=\Alph*)]
+		\item Piastra con \ac{KAN} e \ac{CAF}
+		\begin{enumerate}[label=\arabic*.]
+			\item Aggiungere \qty{25}{\micro\litre} di \acs{CAF} 1000X .			
+			\item Aggiungere \qty{25}{\micro\litre} di \acs{KAN} 1000X.			
+			\item Mescolare bene.			
+			\item Versare in una piastra petri.
+		\end{enumerate}
+		\item Piastra con \ac{AMP}, \acs{IPTG}, \acs{X-gal}. L’IPTG induce l’espressione della \iupac{\b-galattosidasi}, mentre l’\acs{X-gal} si colora di blu in presenza di questo enzima.
+		\begin{enumerate}[label=\arabic*.]
+			\item Aggiungere \qty{100}{\ug\per\ml} di \acl{AMP} 1000X (\qty{25}{\micro\litre}).			
+			\item Aggiungere \qty{80}{\ug\per\ml} di \acs{X-gal} (\qty{25}{\micro\litre}).			
+			\item Aggiungere \qty{0.5}{\milli\Molar} \acs{IPTG} (\qty{25}{\micro\litre}).			
+			\item Mescolare 			
+			\item Versare il terreno in una piastra
+		\end{enumerate}
+	\end{enumerate}
+	\item Lasciare le due piastre semiaperte sotto la cappa biologica fino a quando l’agar non si sarà solidificato.
+	\item Chiuderle e conservarle a \qty{4}{\celsius}.
+\end{enumerate}
+
+\subsection{Preparazione delle cellule competenti}
+\begin{enumerate}
+	\item Sotto cappa biologica, prelevare con pipette sierologiche:
+	\begin{itemize}
+		\item \qty{5}{\ml} di una coltura di cellule DH5\textalpha
+		\item \qty{5}{\ml} di BL21 (\(\text{OD}_{600}\) tra \numrange{0.3}{0.4}) 
+	\end{itemize}
+	trasferire in 2 provette Falcon sterili da \qty{50}{\ml} 
+	\item Centrifugare \qty{5}{\min} a 3000 g a \qty{4}{\celsius}
+	\item Eliminare il surnatante
+	\item Risospendere le cellule in \qty{0.8}{\ml} di buffer 1.
+	\item Trasferire sotto cappa le due soluzioni in eppendorf da \qty{2}{\ml}.
+	\item Incubare in ghiaccio \qty{15}{\min}.
+	\item Centrifugare \qty{5}{\min} a 3000 g a \qty{4}{\celsius}
+	\item Eliminare sotto cappa il surnatante.
+	\item Risospendere le cellule in \qty{0.4}{\ml} di buffer 2.
+	\item Congelare in azoto liquido.
+	\item Conservare a \qty{-80}{\celsius}.
+\end{enumerate}
+Le cellule competenti sono trattate con \ch{CaCl2} che altera la parete cellulare dei batteri rendendola attrattiva per il DNA.
 
 
 
 
 \begingroup
+	\newpage
 	\photo{
-		\img{5-01}{}{}{}
+		\img{5-01}{}{5-01}{}
 	}{
-		\img{5-02}{}{}{}
+		\img{5-02}{\\Termociclatore}{5-02}{}
 	}{
-		\img{5-03}{}{}{}		
+		\img{5-03}{}{5-03}{}		
 	}
 
 	\vspace*{0.5cm}
 	\photo{
-		\img{5-04}{}{}{}
+		\img{5-04}{}{5-04}{}
 	}{
-		\img{5-05}{}{}{}
+		\img{5-05}{}{5-05}{}
 	}{
-		\img{5-06}{}{}{}		
+		\img{5-06}{}{5-06}{}		
 	}
 \endgroup
