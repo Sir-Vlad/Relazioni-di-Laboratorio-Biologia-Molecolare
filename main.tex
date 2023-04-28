@@ -21,13 +21,22 @@
 	range-units = single,
 	list-units = single,
 	list-pair-separator = ~\text{e}~,
+	per-mode = symbol,
 }
+\DeclareSIUnit{\minuti}{\text{minuti}}
+\DeclareSIUnit{\giri}{\text{g}}
+\usepackage[artemisia]{textgreek}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHIMICA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{chemgreek}
+\selectchemgreekmapping{upgreek}
 \usepackage{chemmacros}
+\chemsetup{
+	language=italian,
+	nomenclature/iupac=strict,
+}
 \usepackage{chemformula}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% STILE PAGINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -71,6 +80,15 @@
 }
 \usepackage[justification=centering]{caption}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACRONIMI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{acronym}
+\acrodef{KAN}{\iupac{kanamicina}}
+\acrodef{CAF}{\iupac{cloramfenicolo}}
+\acrodef{AMP}{\iupac{ampicillina}}
+\acrodef{X-gal}{\iupac{bromo-cloro-indolil-galattopiranoside}}
+\acrodef{IPTG}{Isopropil-\textbeta-\textsc{d}-1-tiogalattopiranoside}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{float}
@@ -84,6 +102,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GRAFICA, IMMAGINI E COLORI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
 \usepackage{xcolor} % COLORARE PARTE DEL DOCUMENTO
 \usepackage{graphicx} % IMMAGINI INCLUDE
 \graphicspath{
@@ -112,7 +132,7 @@
 \usepackage{import} % IMPORT SEMPLIFICATO
 \usepackage[hidelinks, pagebackref]{hyperref} % COLLEGAMENTI IPERTESTUALI
 \hypersetup{
-	pdftitle={Relazioni di Laboratorio di Biologia Molecolare}, % TODO: inserire il nome del documento
+	pdftitle={Relazioni di Laboratorio di Biologia Molecolare},
 	pdfauthor={Mattia Frigiola},
 	%final=true,
 	colorlinks=true,

@@ -18,7 +18,11 @@
 
 % comandi per il collage di foto
 \newcommand{\img}[4]{
-	\captionsetup{type=figure,font=small}
+	\captionsetup{
+		type=figure,
+		% name=Immagine,
+		font=small,		
+	}
 	\begin{center}
 		\includegraphics[width=4cm,height=6cm,#4]{#1}
 		% \captionof{figure}{#2}
@@ -67,3 +71,23 @@
 		\end{scope}\end{tikzpicture}%
 	}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newtcolorbox{myBox}[2][]{
+	lower separated=false,
+	colback=gray!15,
+	colframe=black,
+	fonttitle=\bfseries\itshape,
+	colbacktitle=white,
+	coltitle=black,
+	enhanced,
+	attach boxed title to top left={yshift=-0.1in,xshift=0.15in},
+	boxed title style={
+		boxrule=1.5pt,
+		colframe=black,
+		colback=white,
+	},
+	title=#2,
+	#1
+}
