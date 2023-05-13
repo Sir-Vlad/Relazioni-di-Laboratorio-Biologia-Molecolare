@@ -216,6 +216,7 @@ pythontex-files-*/
 
 # todonotes
 *.tdo
+*.todo
 
 # vhistory
 *.hst

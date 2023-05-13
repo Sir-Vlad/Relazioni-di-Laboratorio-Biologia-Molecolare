@@ -1,0 +1,50 @@
+\section{Trasformazione delle cellule di \enzima{E. coli} DH5\textalpha\ e BL21}\label{sec:6}
+
+\subsection{Materiali e composti utilizzati}
+\paragraph{Strumentazione}
+\begin{itemize}
+	\itemb[Incubatore]: è una camera riscaldata, isolata, utilizzata per coltivare e mantenere colture microbiologiche o cellulari.	Mantiene la temperatura a livelli stabili e generalmente la temperatura ideale di funzionamento è fissata a 37°C. La superficie del macchinario sulla quale si appoggiano le provette continua a muoversi per tutta la durata del processo per evitare che le colture si depositino.
+\end{itemize}
+\paragraph{Composti utilizzati}
+\begin{itemize}
+	\itemb[\slz pUC18\,--\,mix]: è un vettore di clonaggio ampiamente utilizzato per la clonazione di frammenti di DNA. Contiene una serie di elementi funzionali importanti, come:
+		\begin{itemize}[person]
+			\item un'origine di replicazione che permette alla cellula ospite di replicare il plasmide
+			\item un gene di resistenza agli antibiotici, come l'ampicillina. Questo gene di resistenza viene utilizzato per la selezione delle cellule batteriche che hanno incorporato con successo il plasmide durante il processo di clonaggio.
+		\end{itemize}
+	\itemb[\slz \glsxtrshort{lhcsr}]: Si tratta di una famiglia di proteine coinvolte nella fotosintesi delle alghe e delle piante. Fanno parte del complesso antenna fotosintetico e svolgono un ruolo chiave nell'adattamento delle piante agli ambienti luminosi ad alta intensità, proteggendo il sistema fotosintetico dallo stress ossidativo.
+\end{itemize}
+
+
+\subsection{Protocollo}
+\begin{enumerate}
+	\item Sotto la cappa biologica, prelevare \qty{100}{\micro\litre} di ciascun tipo di cellule competenti, preparate nell'\autoref{sec:prepLBsolido}, e inserirli in 2 \foreignlanguage{german}{Eppendorf}.
+	\item Aggiungere \qty{1}{\micro\litre} di plasmide a entrambe le soluzioni:
+	\begin{itemize}[person]
+		\item pUC18\,--\,mix per le cellule DH5\textalpha
+		\item \glsxtrshort{lhcsr} per le cellule BL21
+	\end{itemize}
+	\item Mescolare agitando e tenere in ghiaccio per \qtyrange{20}{30}{\min}
+	\item Effettuare lo shock termico immergendo la provetta nel bagno termostatato a \qty{42}{\celsius} per 1 minuto e poi raffreddare velocemente in ghiaccio per 5 minuti.
+	\begin{myBox}[shock termico]
+		Lo \textit{shock termico} è necessario per permettere il passaggio del plasmide all’interno delle cellule batteriche: il cambiamento repentino della temperatura apre dei pori all’interno della membrana cellulare.
+	\end{myBox}
+	\item Aggiungere \qty{200}{\micro\litre} di terreno LB liquido. 
+	\begin{Note}
+		Il terreno utilizzato contiene un antibiotico, che permette la crescita solo delle cellule che contengono il plasmide, e di conseguenza, le cellule che non contengono il plasmide, muoiono.
+
+		\vspace{0.1cm}
+		Il plasmide introdotto nelle cellule permettere di esprimere la resistenza all'antibiotico.
+	\end{Note}
+	\item Incubare a \qty{37}{\celsius} per circa un’ora. 
+	\begin{Note}
+		Il batterio per esprimere la resistenza ha bisogno di tempo e per questo viene effettuata questa operazione.
+	\end{Note}
+	\item Piastrare sotto cappa biologica:
+	\begin{itemize}
+		\item \qty{100}{\micro\litre} di cellule DH5\textalpha\ sulla piastra di LB contenente \gls{AMP}, \gls{X-gal} e \gls{IPTG}.
+		\item \qty{150}{\micro\litre} di cellule BL21 sulla piastra di LB contenente \gls{KAN} e \gls{CAF}.
+	\end{itemize}
+	\item Utilizzare spatoline sterili per omogenizzare lo strato di cellule batteriche sopra la piastra. Tenere la piastra semiaperta in modo da velocizzare l’assorbimento da parte del gel.
+	\item Lasciare a \qty{37}{\celsius} per tutta la notte o a temperatura ambiente per tutto il \foreignlanguage{english}{weekend}.	
+\end{enumerate}

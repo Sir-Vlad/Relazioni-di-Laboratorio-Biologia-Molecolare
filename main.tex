@@ -82,12 +82,24 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACRONIMI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{acronym}
-\acrodef{KAN}{\iupac{kanamicina}}
-\acrodef{CAF}{\iupac{cloramfenicolo}}
-\acrodef{AMP}{\iupac{ampicillina}}
-\acrodef{X-gal}{\iupac{bromo-cloro-indolil-galattopiranoside}}
-\acrodef{IPTG}{Isopropil-\textbeta-\textsc{d}-1-tiogalattopiranoside}
+\usepackage[toc,nopostdot,translate=babel]{glossaries}
+\usepackage[
+	% nomain,
+	% automake
+	]{glossaries-extra}
+
+% \makeglossaries
+\setabbreviationstyle{long-short-sc}
+\setabbreviationstyle[long]{footnote}
+
+\newabbreviation{KAN}{KAN}{\iupac{kanamicina}}
+\newabbreviation{CAF}{CAF}{\iupac{cloramfenicolo}}
+\newabbreviation{AMP}{AMP}{\iupac{ampicillina}}
+
+\newabbreviation[category={long}]{X-gal}{X-gal}{\iupac{bromo-cloro-indolil-galattopiranoside}}
+\newabbreviation[category={long}]{IPTG}{IPTG}{Isopropil-\textbeta-\textsc{d}-1-tiogalattopiranoside}
+\newabbreviation[category={long}]{dntp}{dNTP}{\foreignlanguage{english}{Deoxynucleotide Triphosphate}}
+\newabbreviation[category={long}]{lhcsr}{LHCSR}{Light-Harvesting Complex Stress-Related}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -192,5 +204,11 @@
 \subimport*{./capitoli/}{03-Restizione_DNA.tex}
 \subimport*{./capitoli/}{04-PCR.tex}
 \subimport*{./capitoli/}{05-Cellule_Componenti.tex}
+\subimport*{./capitoli/}{06-Trasformazione_cellule.tex}
+\subimport*{./capitoli/}{07-PCR_Colony.tex}
+
+
+
+% \printglossaries
 
 \end{document}

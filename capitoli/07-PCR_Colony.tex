@@ -1,0 +1,49 @@
+\section{PCR su colonia -- \foreignlanguage{english}{Colony PCR}}
+
+\subsection{Materiali e composti utilizzati}
+\paragraph{Strumentazione}
+\begin{itemize}
+	\itemb[Termociclatore:] descritto \autoref{it:termociclatore}. In questo caso il programma utilizzato è il seguente:
+	\begin{itemize}[squareItem]
+		\itemb[Denaturazione iniziale:] \qty{3}{\min} a \qty{95}{\celsius}
+		\itemb[Amplificazione] per 28 cicli, ogni ciclo si divide in:
+		\begin{itemize}[squareItem]
+			\itemb[Denaturazione]: \qty{30}{\sec} a \qty{95}{\celsius}
+			\itemb[Ibridazione]: \qty{30}{\sec} a \qty{55}{\celsius}
+			\itemb[Estensione]: \qty{60}{\sec} a \qty{72}{\celsius}
+		\end{itemize}
+		\itemb[Estensione finale:] \qty{1}{\min} a \qty{72}{\celsius}
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Composti utilizzati}
+\begin{itemize}
+	\itemb[PCR mix]: è una miscela per PCR ottimizzata e pronta all'uso contenente la \enzima{TAQ polimerasi}, il buffer per PCR, \ch{MgCl2} e \glsentryshortpl{dntp}. 
+	La Mix contiene tutti i componenti per la PCR, a eccezione dei primers e del DNA stampo.
+\end{itemize}
+
+
+\subsection{Protocollo}
+\begin{Note}
+	Durante l'esperienza sono state utilizzare e piastre preparate nell'\hyperref[sec:6]{esperienza 6}, le quali presenteranno colonie blu e colonie bianche.
+
+	Le colonie si presentano di due colorazioni diverse a seconda della presenza dell'inserto o meno nella cellula. L'inserto impedisce la trascrizione della \iupac{\b-galattossidasi}, la quale non metabolizzando l’\gls{X-gal} non produce il \iupac{5-bromo-4-cloro-3-idrossindolo} che è il responsabile della colorazione blu delle cellule.
+\end{Note}
+
+\noindent Procedura operativa:
+\begin{enumerate}
+	\item Prendere due provette da PCR e inserire \qty{20}{\micro\litre} di acqua sterile in ognuna
+	\item Con la punta di una pipetta toccare una colonia bianca e dissolverla nella provetta contenente acqua. Ripetere la stessa operazione per la colonia blu.
+	\item Prendere due nuove provette da PCR e inserirci \qty{15}{\micro\litre} di PCR mix (verde) in ciascuna
+	\item Aggiungere \qty{5}{\micro\litre} di ciascuna colonia al PCR mix 
+	\item Mescolare vortexando le due soluzioni
+	\item Inserire le provette nel termociclatore e far partire la PCR
+	\item Una volta finita la PCR, inserire i campioni sul gel di corsa (precedentemente preparato come descritto in \ref{sssec:agarosio})
+	\item Alla fine, vedere il gel allo spettrofotometro UV
+\end{enumerate}
+
+\noindent I risultati attesi prevedono la presenza di due bande:
+\begin{itemize}
+	\item Una molto sottile e bassa (poche basi) che rappresenta il plasmide vuoto delle colonie blu.
+	\item Una più spessa e alta (tante basi perché l’inserto è grande) che rappresenta il plasmide con l’inserto delle colonie bianche.
+\end{itemize}

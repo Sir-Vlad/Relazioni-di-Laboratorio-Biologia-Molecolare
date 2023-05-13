@@ -9,23 +9,25 @@
 \renewcommand\p@subsubsection{\thesubsection.}
 \makeatother
 
+\AtBeginDocument{%
+  \DeclareFontShape{T1}{cmr}{m}{scit}{<->ssub*cmr/m/scsl}{}%
+}
 
 % parole ripetitive o con particolari formattazioni
 \RequirePackage{xspace}
 \newcommand{\slz}{Soluzione\xspace}
 \newcommand{\trizol}{TRIzol\xspace}
 \newcommand{\enzima}[1]{\emph{#1}}
+\newcommand{\linea}{\,--\,}
 
 % comandi per il collage di foto
 \newcommand{\img}[4]{
 	\captionsetup{
 		type=figure,
-		% name=Immagine,
 		font=small,		
 	}
 	\begin{center}
 		\includegraphics[width=4cm,height=6cm,#4]{#1}
-		% \captionof{figure}{#2}
 		\caption{#2}
 		\label{img:#3}
 	\end{center}
@@ -72,22 +74,41 @@
 	}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\tcbset{
+	myStyle/.style={
+		colback=gray!15,
+		colframe=white,
+		boxrule=0pt,
+		arc=0pt,
+		boxsep=2pt,
+		left=2pt,
+		right=2pt,
+		leftrule=1pt,
+		enhanced,
+		frame hidden, 
+		borderline west = {1pt}{1pt}{black, solid},
+		colbacktitle=gray!15,
+		coltitle=black,
+		toptitle=5pt,
+	}
+}
+		
+\newtcolorbox{Note}{
+	myStyle,
+	title=\textbf{\textsc{Note}},
+	colback=blue!15,
+	colbacktitle=blue!15
+	}
+	
+\newtcolorbox{Attenzione}{
+	myStyle,
+	title=\textbf{\textsc{Attenzione}},
+	colback=red!15,
+	colbacktitle=red!15
+}
 
-
-\newtcolorbox{myBox}[2][]{
-	lower separated=false,
-	colback=gray!15,
-	colframe=black,
-	fonttitle=\bfseries\itshape,
-	colbacktitle=white,
-	coltitle=black,
-	enhanced,
-	attach boxed title to top left={yshift=-0.1in,xshift=0.15in},
-	boxed title style={
-		boxrule=1.5pt,
-		colframe=black,
-		colback=white,
-	},
-	title=#2,
-	#1
+\RequirePackage{mfirstuc} % prima lettera di una stringa divernta maiuscola
+\newtcolorbox{myBox}[1][]{
+	myStyle,
+	title=\textbf{\xmakefirstuc{\textsc{#1}}}
 }
