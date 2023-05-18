@@ -22,27 +22,33 @@
 
 % comandi per il collage di foto
 \newcommand{\img}[4]{
-	\captionsetup{
-		type=figure,
-		font=small,		
-	}
-	\begin{center}
-		\includegraphics[width=4cm,height=6cm,#4]{#1}
-		\caption{#2}
-		\label{img:#3}
-	\end{center}
+	\begin{riquadro}
+		\captionsetup{
+			type=figure,
+			font=small,		
+		}
+		% \begin{center}
+			\strut\vspace*{-\baselineskip}\newline
+			\includegraphics[width=4cm,height=6cm,center,#4]{#1}%
+			\caption{#2}\label{img:#3}
+		% \end{center}
+	\end{riquadro}
 }
 
 \newcommand{\photo}[3]{
-	\begin{minipage}{0.3\linewidth}
-		#1
-	\end{minipage}
-	\begin{minipage}{0.3\linewidth}
-		#2
-	\end{minipage}
-	\begin{minipage}{0.3\linewidth}
-		#3
-	\end{minipage}
+	\noindent\mbox{\noindent
+		\begin{minipage}{0.3\linewidth}
+			#1
+		\end{minipage}
+		\hspace{0.35cm}
+		\begin{minipage}{0.3\linewidth}
+			#2
+		\end{minipage}
+		\hspace{0.35cm}
+		\begin{minipage}{0.3\linewidth}
+			#3
+		\end{minipage}
+	}
 }
 
 % Punti elenco
@@ -118,4 +124,11 @@
 \newtcolorbox{myBox}[1][]{
 	myStyle,
 	title=\textbf{\xmakefirstuc{\textsc{#1}}}
+}
+
+\newtcolorbox{riquadro}{
+	enhanced,
+	frame hidden,
+	boxsep=0mm
+	% frame corners all={5mm}{2pt}{1pt}{black}{white}
 }

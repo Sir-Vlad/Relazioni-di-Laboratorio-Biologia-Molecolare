@@ -2,6 +2,7 @@
 .vscode
 .temp
 *.code-workspace
+*prova*
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

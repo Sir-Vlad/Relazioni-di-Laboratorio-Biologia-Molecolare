@@ -114,8 +114,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GRAFICA, IMMAGINI E COLORI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage{tcolorbox}
+\usepackage[most]{tcolorbox}
 \tcbuselibrary{skins}
+\usepackage[export]{adjustbox}
 \usepackage{xcolor} % COLORARE PARTE DEL DOCUMENTO
 \usepackage{graphicx} % IMMAGINI INCLUDE
 \graphicspath{
@@ -123,7 +124,11 @@
 	{./immagini/02-Estrazione_RNA},
 	{./immagini/03-Restrizione_DNA},
 	{./immagini/04-PCR},
-	{./immagini/05-Cellule_Competenti}
+	{./immagini/05-Cellule_Competenti},
+	{./immagini/06-Trasformazione_cellule},
+	{./immagini/07-PCR_Colony},
+	{./immagini/08-Lisi_batterica},
+	{./immagini/09-Espressione_proteine},
 }
 \usepackage{tikz} % GRAFICA E MOLTO ALTRO
 \usetikzlibrary{
@@ -152,10 +157,11 @@
 }
 \usepackage[numbered]{bookmark}
 
+% \input{command-prova.sty} % FIXME: delete prova
 \input{command.sty} % MIEI COMANDI
 
 \hbadness=50000
-\vfuzz=30pt
+\vfuzz=100pt
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INIZIO DOCUMENTO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -209,8 +215,8 @@
 \subimport*{./capitoli/}{05-Cellule_Componenti.tex}
 \subimport*{./capitoli/}{06-Trasformazione_cellule.tex}
 \subimport*{./capitoli/}{07-PCR_Colony.tex}
-
-
+\subimport*{./capitoli/}{08-Lisi_batterica.tex}
+\subimport*{./capitoli/}{09-Espressione_proteine.tex}
 
 % \printglossaries
 

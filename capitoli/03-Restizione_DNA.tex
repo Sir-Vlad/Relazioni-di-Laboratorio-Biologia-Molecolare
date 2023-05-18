@@ -73,31 +73,35 @@
 	\newpage
 	\newgeometry{top=.5in,bottom=.5in}
 	\photo{
-		\img{3-01}{\\\slz DNA\\ senza enzima}{3-01}{trim={5cm 20cm 15cm 20cm},clip}		
+		\img{3-01}{\\\slz DNA senza enzima}{3-01}{trim={5cm 20cm 15cm 20cm},clip}		
 	}{
-		\img{3-02}{\\\slz DNA\\ con enzima}{3-02}{trim={10cm 30cm 10cm 10cm},clip}
+		\img{3-02}{\\\slz DNA con enzima}{3-02}{trim={10cm 30cm 10cm 10cm},clip}
 	}{
-		\img{3-03}{\\\slz di agarosio\\ (prima del riscaldamento)}{3-03}{}		
+		\img{3-03}{\\\slz di agarosio {\scriptsize (prima del riscaldamento)}}{3-03}{}		
 	}
 
-	\vspace{.15cm}
+	\vspace{0.10cm}
 	\photo{
-		\img{3-04}{\\\slz di agarosio\\ (dopo del riscaldamento)}{3-04}{trim={15cm 0 15cm 0},clip}		
+		\img{3-04}{\\\slz di agarosio {\scriptsize (dopo del riscaldamento)}}{3-04}{trim={15cm 0 15cm 0},clip}		
 	}{
-		\img{3-07}{\\Aggiunta di SyberSafe\\\phantom{}}{3-07}{trim={5cm 20cm 5cm 0},clip}		
+		\img{3-07}{\\Aggiunta di SyberSafe}{3-07}{trim={5cm 20cm 5cm 0},clip}		
 	}{
 		\img{3-08}{\\Vaschetta piena\\\phantom{}}{3-08}{trim={5cm 10cm 5cm 10cm},clip}
 	}
 
-	\vspace{-.5cm}
+	% \newpage
 	\photo{
-		\begin{figure}[H]
-			\captionsetup{singlelinecheck=off}
-			\centering
+		\begin{riquadro}
+			\captionsetup{
+				type=figure,
+				font=small,	
+				singlelinecheck=off	
+			}
 			\begin{annotatedFigure}
 				{\includegraphics[
 					width=4cm,
 					height=6cm,
+					center
 					]{3-16}
 				}
 				\annotatedFigureText{0.8,0.375}{black}{}{A}
@@ -105,25 +109,29 @@
 				\annotatedFigureText{0.83,0.725}{black}{}{C}
 			\end{annotatedFigure}
 			\caption[Piastra di agarosio]{\\Campioni inseriti nei pozzetti --
-			\begin{enumerate}[person,label=\Alph*]
-				\item DNA con enzima
-				\item DNA senza enzima
-				\item RNA
+			\begin{enumerate}[person,label=\Alph*,leftmargin=*]
+				\item {\footnotesize DNA con enzima}
+				\item {\footnotesize DNA senza enzima}
+				\item {\footnotesize RNA}
 			\end{enumerate}
 			}\label{img:3-16}
-		\end{figure}
+		\end{riquadro}
 	}{
-		\img{3-12}{\\Strumento per\\ l'elettroferesi\\\phantom{}\\\phantom{}}{3-12}{}
+		\img{3-12}{\\Strumento per\\ l'elettroferesi\\\phantom{}\\\phantom{}\\\phantom{}}{3-12}{}
 	}{
-		\begin{figure}[H]
-			\captionsetup{singlelinecheck=off}
-			\centering
+		\begin{riquadro}
+			\captionsetup{
+				type=figure,
+				font=small,	
+				singlelinecheck=off	
+			}
 			\begin{annotatedFigure}
 				{\includegraphics[
 					width=4cm,
 					height=6cm,
 					trim={15cm 5cm 30cm 15cm},
-					clip
+					clip,
+					center
 					]{3-15}
 				}
 				\annotatedFigureText{0.63,0.325}{black}{}{A}
@@ -132,13 +140,13 @@
 				\annotatedFigureText{0.63,0.625}{black}{}{D}
 			\end{annotatedFigure}
 			\caption[Piastra di agarosio]{\\Piastra di agarosio --
-			\begin{enumerate}[person,label=\Alph*]
-				\item DNA con enzima
-				\item DNA senza enzima
-				\item RNA
-				\item Marker
+			\begin{enumerate}[person,label=\Alph*,leftmargin=*]
+				\item {\footnotesize DNA con enzima}
+				\item {\footnotesize DNA senza enzima}
+				\item {\footnotesize RNA}
+				\item {\footnotesize Marker}
 			\end{enumerate}
 			}\label{img:3-15}
-		\end{figure}		
+		\end{riquadro}		
 	}
 \endgroup
