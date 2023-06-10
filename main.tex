@@ -7,6 +7,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACCHETTI DEBUG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % \usepackage[allfiguresdraft]{draftfigure}
+\usepackage{functional}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACCHETTI MATEMATICA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -37,6 +38,7 @@
 	nomenclature/iupac=strict,
 }
 \usepackage{chemformula}
+\usepackage{ghsystem}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% STILE PAGINA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -52,6 +54,9 @@
 
 \usepackage{indentfirst} 
 \usepackage[swapnames]{frontespizio}
+% \usepackage[paper=portrait,pagesize]{typearea}
+\usepackage{pdflscape}
+\usepackage{multicol}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INDICE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -70,13 +75,9 @@
 	partopsep=0pt,
 	noitemsep,
 }
-\SetEnumitemKey{pointItem}{
-	person,
-	label={\footnotesize\ding{109}}
-}
 \SetEnumitemKey{squareItem}{
 	person,
-	label={\footnotesize \ding{111}}
+	label={\footnotesize\ding{111}}
 }
 \usepackage[justification=centering]{caption}
 
@@ -100,6 +101,11 @@
 \newabbreviation[category={long}]{IPTG}{IPTG}{Isopropil-\textbeta-\textsc{d}-1-tiogalattopiranoside}
 \newabbreviation[category={long}]{dntp}{dNTP}{\foreignlanguage{english}{Deoxynucleotide Triphosphate}}
 \newabbreviation[category={long}]{lhcsr}{LHCSR}{Light-Harvesting Complex Stress-Related}
+\newabbreviation[category={long}]{tris-hcl}{Tris-HCl}{\iupac{tris-idrossimetil aminometano cloridrato}}
+\newabbreviation[category={long}]{tris}{Tris}{\iupac{tris-idrossimetil aminometano}}
+\newabbreviation[category={long}]{edta}{EDTA}{\iupac{acido etilendiamminotetraacetico}}
+\newabbreviation[category={long}]{hepes}{HEPES}{\iupac{acido 2-[4-(2-idrossietil)piperazin-1-il]etansolfonico}}
+\newabbreviation[category={long}]{lds}{LDS}{\iupac{dodecil solfato di litio}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -110,7 +116,11 @@
 % \usepackage{longtable}
 
 \usepackage{tabularray} % NOTA: integra 'tabularx', 'booktabs' e 'multirow'
-\usepackage{nicematrix} % utilizzato sopratutto per personalizzare le matrici
+\UseTblrLibrary{siunitx}
+\UseTblrLibrary{functional}
+\UseTblrLibrary{booktabs}
+
+% \usepackage{nicematrix} % utilizzato sopratutto per personalizzare le matrici
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GRAFICA, IMMAGINI E COLORI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -175,8 +185,6 @@
 		\usepackage{graphicx}
 		\usepackage{txfonts}
 	\end{Preambolo*}
-	\Istituzione{\textbf{UNIVERSIT\`A DEGLI STUDI DI VERONA}}
-
 	\Interfacolta{Dipartimento di Informatica}
 
 	\Corso[laurea]{Bioinformatica}
@@ -217,6 +225,7 @@
 \subimport*{./capitoli/}{07-PCR_Colony.tex}
 \subimport*{./capitoli/}{08-Lisi_batterica.tex}
 \subimport*{./capitoli/}{09-Espressione_proteine.tex}
+\subimport*{./capitoli/}{10-SDS-Page.tex}
 
 % \printglossaries
 

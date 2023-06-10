@@ -51,6 +51,26 @@
 	}
 }
 
+\newcommand{\photoLand}[5]{
+	\noindent\mbox{\noindent
+		\begin{minipage}{0.2\linewidth}
+			#1
+		\end{minipage}
+		\begin{minipage}{0.2\linewidth}
+			#2
+		\end{minipage}
+		\begin{minipage}{0.2\linewidth}
+			#3
+		\end{minipage}
+		\begin{minipage}{0.2\linewidth}
+			#4
+		\end{minipage}
+		\begin{minipage}{0.2\linewidth}
+			#5
+		\end{minipage}
+	}
+}
+
 % Punti elenco
 \newcommand{\itemb}[1][]{\item \textbf{#1}}
 
@@ -132,3 +152,10 @@
 	boxsep=0mm
 	% frame corners all={5mm}{2pt}{1pt}{black}{white}
 }
+
+% \IgnoreSpacesOn
+% \prgNewFunction \percent { m m }{
+% 	\fpSet \
+% }
+
+% \IgnoreSpacesOff
