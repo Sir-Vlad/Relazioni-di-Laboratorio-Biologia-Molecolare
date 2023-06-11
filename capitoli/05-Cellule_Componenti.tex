@@ -13,10 +13,10 @@
 	\itemb[Estratto di lievito]: fornisce una sovrabbondanza di composti organici utili per la crescita batterica
 	\itemb[Cloruro di sodio (\ch{NaCl})]: fornisce ioni sodio utili per l'equilibrio osmotico e per il trasporto
 	\itemb[\Glsxtrfull{KAN}]: antibiotico aminoglicosidico che uccide i batteri impedendo loro di sintetizzare le proteine di cui hanno bisogno per vivere
-	\itemb[\Glsxtrfull{CAF}]: antibiotico ad azione batteriostatica inibendo la sintesi proteica 
+	\itemb[\Glsxtrfull{CAF}]: antibiotico ad azione batteriostatica inibendo la sintesi proteica
 	\itemb[\Glsxtrfull{AMP}]: antibiotico della famiglia delle penicilline. Uccide i batteri interferendo con la formazione della loro parete e provocandone la rottura
 	\itemb[\Gls{IPTG}]: analogo chimico del \iupac{galattosio} che non può essere idrolizzato dall'enzima \iupac{\b-galattosidasi}. È un induttore di attività dell'\enzima{E.Coli lac operon} che agisce legando e inibendo il repressore \emph{Lac}.
-	\itemb[\Gls{X-gal}]: è utilizzato per indicare quando una cellula esprime l'enzima \iupac{\b-galattosidasi}. L'\gls{X-gal} viene scisso dalla \iupac{\b-galattosidasi} producendo \iupac{galattosio} e \iupac{5-bromo-4-cloro-3-idrossindolo}. Quest'ultimo viene ossidato in \iupac{5,5'-dibromo-4,4'-dicloro-indaco}, un composto blu insolubile. 
+	\itemb[\Gls{X-gal}]: è utilizzato per indicare quando una cellula esprime l'enzima \iupac{\b-galattosidasi}. L'\gls{X-gal} viene scisso dalla \iupac{\b-galattosidasi} producendo \iupac{galattosio} e \iupac{5-bromo-4-cloro-3-idrossindolo}. Quest'ultimo viene ossidato in \iupac{5,5'-dibromo-4,4'-dicloro-indaco}, un composto blu insolubile.
 	\itemb[Cellule DH5\textalpha]: sono cellule ingegnerizzate di \enzima{E. coli}. Sono caratterizzate da tre[ mutazioni: \emph{recA1}, \emph{endA1} che favoriscono l'inserimento del plasmide e \mbox{\emph{lacZ\textDelta\!M15}} che consente lo screening del bianco blu. Le cellule sono competenti e spesso vengono utilizzate per la trasformazione con cloruro di calcio per inserire il plasmide desiderato.
 	\itemb[Cellule BL21]: sono una linea cellulare batterica comunemente utilizzata in biologia molecolare e ingegneria genetica. Sviluppata per esprimere proteine ricombinanti in modo efficiente. Presenta una mutazione nel gene che codifica per la proteina \enzima{endonucleasi di restrizione I}. Esistono delle varianti come BL21(DE3), che esprimono anche la proteina T7 RNA polimerasi sotto il controllo di un promotore inducibile. Questa caratteristica permette l'espressione controllata del gene d'interesse mediante l'aggiunta di \gls{IPTG}, un induttore del promotore T7.
 \end{itemize}
@@ -25,41 +25,40 @@
 \subsubsection{Preparazione del terreno LB solido}
 \begin{enumerate}
 	\item Inserire nella bottiglia:
-	\begin{itemize}[person]
-		\item \qty{0.5}{\g} di \iupac{triptone}
-		\item \qty{0.25}{\g} di estratto di lievito
-		\item \qty{0.25}{\g} di \ch{NaCl}
-		\item \qty{0.75}{\g} di agar batteriologico
-		\item \qty{50}{\ml} di acqua distillata
-	\end{itemize}
-	\begin{Note}
-		Sulla bottiglia attaccare un pezzo di nastro adesivo da autoclave. Questo tipo di nastro si colora di nero se la sterilizzazione è avvenuta con successo.
-	\end{Note}
+	      \begin{itemize}[person]
+		      \item \qty{0.5}{\g} di \iupac{triptone}
+		      \item \qty{0.25}{\g} di estratto di lievito
+		      \item \qty{0.25}{\g} di \ch{NaCl}
+		      \item \qty{0.75}{\g} di agar batteriologico
+		      \item \qty{50}{\ml} di acqua distillata
+	      \end{itemize}
+	      \begin{Note}
+		      Sulla bottiglia attaccare un pezzo di nastro adesivo da autoclave. Questo tipo di nastro si colora di nero se la sterilizzazione è avvenuta con successo.
+	      \end{Note}
 
-	% TODO: aggiungere una foto del nastro da autoclave
 	\item Sterilizzare la bottiglia in autoclave a \qty{120}{\celsius}  per \qty{20}{\min}.
-	\begin{Attenzione}
-		Il tappo della bottiglia deve essere allentato per evitare che esploda.
-	\end{Attenzione}
+	      \begin{Attenzione}
+		      Il tappo della bottiglia deve essere allentato per evitare che esploda.
+	      \end{Attenzione}
 	\item Aspettare che la soluzione si raffreddi.
 	\item Prelevare \qty{25}{\ml} della soluzione autoclavata e inserirli in una Falcon sterile per la preparazione delle piastre:
-	\begin{enumerate}[label=\Alph*)]
-		\item Piastra con \gls{KAN} e \gls{CAF}
-		\begin{enumerate}[label=\arabic*.]
-			\item Aggiungere \qty{25}{\micro\litre} di \gls{CAF} 1000X.
-			\item Aggiungere \qty{25}{\micro\litre} di \gls{KAN} 1000X.
-			\item Mescolare bene.
-			\item Versare in una piastra Petri.
-		\end{enumerate}
-		\item Piastra con \glsxtrshort{AMP}, \gls{IPTG}, \gls{X-gal}. L’IPTG induce l’espressione della \iupac{\b-galattosidasi}, mentre l’\gls{X-gal} si colora di blu in presenza di questo enzima.
-		\begin{enumerate}[label=\arabic*.]
-			\item Aggiungere \qty{100}{\ug\per\ml} di \glsxtrshort{AMP} 1000X (\qty{25}{\micro\litre}).
-			\item Aggiungere \qty{80}{\ug\per\ml} di \gls{X-gal} (\qty{25}{\micro\litre}).
-			\item Aggiungere \qty{0.5}{\milli\Molar} \gls{IPTG} (\qty{25}{\micro\litre}).
-			\item Mescolare
-			\item Versare il terreno in una piastra
-		\end{enumerate}
-	\end{enumerate}
+	      \begin{enumerate}[label=\Alph*)]
+		      \item Piastra con \gls{KAN} e \gls{CAF}
+		            \begin{enumerate}[label=\arabic*.]
+			            \item Aggiungere \qty{25}{\micro\litre} di \gls{CAF} 1000X.
+			            \item Aggiungere \qty{25}{\micro\litre} di \gls{KAN} 1000X.
+			            \item Mescolare bene.
+			            \item Versare in una piastra Petri.
+		            \end{enumerate}
+		      \item Piastra con \glsxtrshort{AMP}, \gls{IPTG}, \gls{X-gal}. L’IPTG induce l’espressione della \iupac{\b-galattosidasi}, mentre l’\gls{X-gal} si colora di blu in presenza di questo enzima.
+		            \begin{enumerate}[label=\arabic*.]
+			            \item Aggiungere \qty{100}{\ug\per\ml} di \glsxtrshort{AMP} 1000X (\qty{25}{\micro\litre}).
+			            \item Aggiungere \qty{80}{\ug\per\ml} di \gls{X-gal} (\qty{25}{\micro\litre}).
+			            \item Aggiungere \qty{0.5}{\milli\Molar} \gls{IPTG} (\qty{25}{\micro\litre}).
+			            \item Mescolare
+			            \item Versare il terreno in una piastra
+		            \end{enumerate}
+	      \end{enumerate}
 	\item Lasciare le due piastre semiaperte sotto la cappa biologica fino a quando l’agar non si sarà solidificato.
 	\item Chiuderle e conservarle a \qty{4}{\celsius}.
 \end{enumerate}
@@ -67,11 +66,11 @@
 \subsubsection{Preparazione delle cellule competenti}
 \begin{enumerate}[person,itemsep=8pt]
 	\item Sotto cappa biologica, prelevare con pipette sierologiche:
-	\begin{itemize}[person]
-		\item \qty{5}{\ml} di una coltura di cellule DH5\textalpha
-		\item \qty{5}{\ml} di BL21 (\(\text{OD}_{600}\) tra \numrange{0.3}{0.4})
-	\end{itemize}
-	trasferire in 2 provette Falcon sterili da \qty{50}{\ml}
+	      \begin{itemize}[person]
+		      \item \qty{5}{\ml} di una coltura di cellule DH5\textalpha
+		      \item \qty{5}{\ml} di BL21 (\(\text{OD}_{600}\) tra \numrange{0.3}{0.4})
+	      \end{itemize}
+	      trasferire in 2 provette Falcon sterili da \qty{50}{\ml}
 	\item Centrifugare \qty{5}{\min} a \qty{3000}{\giri} a \qty{4}{\celsius} e poi eliminare il surnatante
 	\item Risospendere le cellule in \qty{0.8}{\ml} di buffer 1.
 	\item Trasferire sotto cappa le due soluzioni in \foreignlanguage{german}{Eppendorf} da \qty{2}{\ml}.
@@ -84,21 +83,21 @@
 Le cellule competenti sono trattate con \ch{CaCl2} che altera la parete cellulare dei batteri rendendola attrattiva per il DNA.
 
 \begingroup
-	% \newpage
-	\photo{
-		\img{5-01}{\\Bottiglia contenente il terreno LB}{5-01}{}
-	}{
-		\img{5-02}{\\Termociclatore\\\phantom{}}{5-02}{}
-	}{
-		\img{5-03}{\\Provette contenenti cellule DH5\textalpha\ e BL21}{5-03}{}
-	}
+% \newpage
+\photo{
+	\img{5-01}{\\Bottiglia contenente il terreno LB}{5-01}{}
+}{
+	\img{5-02}{\\Termociclatore\\\phantom{}}{5-02}{}
+}{
+	\img{5-03}{\\Provette contenenti cellule DH5\textalpha\ e BL21}{5-03}{}
+}
 
-	\vspace{0.10cm}
-	\photo{
-		\img{5-04}{\\Cellule con buffer I nel ghiacchio}{5-04}{}
-	}{
-		\img{5-05}{\\Cellule DH5\textalpha\ con buffer 2}{5-05}{}
-	}{
-		\img{5-06}{\\Cellule BL21 con buffer 2}{5-06}{}
-	}
+\vspace{0.10cm}
+\photo{
+	\img{5-04}{\\Cellule con buffer I nel ghiacchio}{5-04}{}
+}{
+	\img{5-05}{\\Cellule DH5\textalpha\ con buffer 2}{5-05}{}
+}{
+	\img{5-06}{\\Cellule BL21 con buffer 2}{5-06}{}
+}
 \endgroup

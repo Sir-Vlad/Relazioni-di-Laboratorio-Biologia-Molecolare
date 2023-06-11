@@ -54,7 +54,6 @@
 
 \usepackage{indentfirst} 
 \usepackage[swapnames]{frontespizio}
-% \usepackage[paper=portrait,pagesize]{typearea}
 \usepackage{pdflscape}
 \usepackage{multicol}
 
@@ -84,10 +83,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ACRONIMI %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage[toc,nopostdot,translate=babel]{glossaries}
-\usepackage[
-	% nomain,
-	% automake
-	]{glossaries-extra}
+\usepackage{glossaries-extra}
 
 % \makeglossaries
 \setabbreviationstyle{long-short-sc}
@@ -96,6 +92,9 @@
 \newabbreviation{KAN}{KAN}{\iupac{kanamicina}}
 \newabbreviation{CAF}{CAF}{\iupac{cloramfenicolo}}
 \newabbreviation{AMP}{AMP}{\iupac{ampicillina}}
+\newabbreviation{nbt}{NBT}{\iupac{nitroblu-tetrazolium}}
+\newabbreviation{bcip}{BCIP}{5-bromo-4-cloro-3-indolil fosfato}
+\newabbreviation{sds}{SDS}{sodio dodecilsolfato}
 
 \newabbreviation[category={long}]{X-gal}{X-gal}{\iupac{bromo-cloro-indolil-galattopiranoside}}
 \newabbreviation[category={long}]{IPTG}{IPTG}{Isopropil-\textbeta-\textsc{d}-1-tiogalattopiranoside}
@@ -106,6 +105,8 @@
 \newabbreviation[category={long}]{edta}{EDTA}{\iupac{acido etilendiamminotetraacetico}}
 \newabbreviation[category={long}]{hepes}{HEPES}{\iupac{acido 2-[4-(2-idrossietil)piperazin-1-il]etansolfonico}}
 \newabbreviation[category={long}]{lds}{LDS}{\iupac{dodecil solfato di litio}}
+\newabbreviation[category={long}]{temed}{TEMED}{tetrametiletilendiamina}
+\newabbreviation[category={long}]{aps}{APS}{Perossidisolfato d'ammonio}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -139,6 +140,8 @@
 	{./immagini/07-PCR_Colony},
 	{./immagini/08-Lisi_batterica},
 	{./immagini/09-Espressione_proteine},
+	{./immagini/10-SDS-Page},
+	{./immagini/11-Western_Blot}
 }
 \usepackage{tikz} % GRAFICA E MOLTO ALTRO
 \usetikzlibrary{
@@ -167,7 +170,6 @@
 }
 \usepackage[numbered]{bookmark}
 
-% \input{command-prova.sty} % FIXME: delete prova
 \input{command.sty} % MIEI COMANDI
 
 \hbadness=50000
@@ -188,9 +190,9 @@
 	\Interfacolta{Dipartimento di Informatica}
 
 	\Corso[laurea]{Bioinformatica}
-		
+
 	\Titolo{\Huge{\textbf{\textsl{Relazioni di Laboratorio di\\ Biologia Molecolare}}}}
-		
+
 	\Relatore{\Large{\slshape{Stefano Capaldi}}}
 	\Relatore{\Large{\slshape{Matteo Ballottari}}}
 	\Relatore{\Large{\slshape{Nico Betterle} $\varheartsuit$}}
@@ -209,8 +211,8 @@
 
 \begingroup
 \begin{titlepage}
-\hypersetup{hidelinks}
-\tableofcontents
+	\hypersetup{hidelinks}
+	\tableofcontents
 \end{titlepage}
 \endgroup
 
@@ -226,6 +228,7 @@
 \subimport*{./capitoli/}{08-Lisi_batterica.tex}
 \subimport*{./capitoli/}{09-Espressione_proteine.tex}
 \subimport*{./capitoli/}{10-SDS-Page.tex}
+\subimport*{./capitoli/}{11-Western_Blot.tex}
 
 % \printglossaries
 

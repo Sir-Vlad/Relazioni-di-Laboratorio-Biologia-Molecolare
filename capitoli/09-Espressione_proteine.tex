@@ -1,42 +1,42 @@
 \section{Espressione eterologa di proteine e loro purificazione}\label{sec:espProteine}
 
 \subsection{Materiali e composti utilizzati}
-\paragraph{Strumentazione}
+% \paragraph{Strumentazione}
 
 
 \paragraph{Composti utilizzati}
 % \newcommand{\squarebullet}{\raisebox{.45ex}{\rule{.6ex}{.6ex}}}
 \begin{itemize}
 	\begin{multicols}{2}
-	\itemb[Tampone di Lisi]:
-	\begin{itemize}[squareItem]
-		\item \qty{50}{\milli\Molar} \gls{tris} \pH\ 8
-		\item \qty{25}{\percent} saccarosio
-		\item \qty{1}{\milli\Molar} \gls{edta}
-	\end{itemize}
-	\itemb[Tampone Detergente]:
-	\begin{itemize}[squareItem]
-		\item \qty{200}{\milli\Molar} \ch{NaCl}
-		\item \qty{1}{\percent} \iupac{acido deossicolico}
-		\item \qty{1}{\percent} NONIDET P-40
-		\item \qty{20}{\milli\Molar} \gls{tris} \pH\ \num{7.5}
-		\item \qty{2}{\milli\Molar} \gls{edta}
-		\item \qty{10}{\milli\Molar} \iupac{\b-mercaptoetanolo}
-	\end{itemize}
-	\itemb[Tampone Triton]:
-	\begin{itemize}[squareItem]
-		\item \qty{0.5}{\percent} m/V di Triton X-100
-		\item \qty{20}{\milli\Molar} \gls{tris-hcl} \pH\ \num{7.5}
-		\item \qty{1}{\milli\Molar} di \iupac{\b-mercaptoetanolo}
-	\end{itemize}
-	\itemb[Tampone di Ricostituzione]:
-	\begin{itemize}[squareItem]
-		\item \qty{50}{\milli\Molar} \gls{hepes} \pH\ 8, 
-		\item \qty{12.5}{\percent} saccarosio, 
-		\item \qty{2}{\percent} \gls{lds}, 
-		\item \qty{5}{\milli\Molar} \iupac{acido 6-aminocaproico}
-		\item \qty{1}{\milli\Molar} \iupac{benzamidina}
-	\end{itemize}
+		\itemb[Tampone di Lisi]:
+		\begin{itemize}[squareItem]
+			\item \qty{50}{\milli\Molar} \gls{tris} \pH\ 8
+			\item \qty{25}{\percent} saccarosio
+			\item \qty{1}{\milli\Molar} \gls{edta}
+		\end{itemize}
+		\itemb[Tampone Detergente]:
+		\begin{itemize}[squareItem]
+			\item \qty{200}{\milli\Molar} \ch{NaCl}
+			\item \qty{1}{\percent} \iupac{acido deossicolico}
+			\item \qty{1}{\percent} NONIDET P-40
+			\item \qty{20}{\milli\Molar} \gls{tris} \pH\ \num{7.5}
+			\item \qty{2}{\milli\Molar} \gls{edta}
+			\item \qty{10}{\milli\Molar} \iupac{\b-mercaptoetanolo}
+		\end{itemize}
+		\itemb[Tampone Triton]:
+		\begin{itemize}[squareItem]
+			\item \qty{0.5}{\percent} m/V di Triton X-100
+			\item \qty{20}{\milli\Molar} \gls{tris-hcl} \pH\ \num{7.5}
+			\item \qty{1}{\milli\Molar} di \iupac{\b-mercaptoetanolo}
+		\end{itemize}
+		\itemb[Tampone di Ricostituzione]:
+		\begin{itemize}[squareItem]
+			\item \qty{50}{\milli\Molar} \gls{hepes} \pH\ 8,
+			\item \qty{12.5}{\percent} saccarosio,
+			\item \qty{2}{\percent} \gls{lds},
+			\item \qty{5}{\milli\Molar} \iupac{acido 6-aminocaproico}
+			\item \qty{1}{\milli\Molar} \iupac{benzamidina}
+		\end{itemize}
 	\end{multicols}
 \end{itemize}
 
@@ -45,33 +45,33 @@
 \subsubsection{Purificazione LHC}
 \begin{enumerate}
 	\item Pesare una provetta Falcon da \qty{150}{\ml} e annotare il peso.
-	\begin{Note}
-		Noi abbiamo preparato tre provette Falcon da \qty{50}{\ml} e le abbiamo usate come soluzioni a parte fino al \autoref{it:pellet}, dove prima di aggiungere il lisozima le abbiamo unite tutte in una.
-	\end{Note}
+	      \begin{Note}
+		      Noi abbiamo preparato tre provette Falcon da \qty{50}{\ml} e le abbiamo usate come soluzioni a parte fino al \autoref{it:pellet}, dove prima di aggiungere il lisozima le abbiamo unite tutte in una.
+	      \end{Note}
 	\item Prelevare \qty{50}{\ml} di coltura batterica e inserirli nella Falcon.
 	\item Centrifugare a \qty{4350}{\giri} per \qty{5}{\min}
 	\item Eliminare il surnatante e ripesare la provetta contente il pellet.
 	\item \label{it:pellet} Il pellet pesato viene risospeso in \qty{0.8}{\ml\per\g} di tampone di lisi preparato precedentemente.
-	\item Aggiungere una spatola di lisozima e Lasciare a temperatura ambiente per \qtyrange{20}{25}{\min} 
-	\begin{Informazione}
-		La quantità di lisozima aggiunta aumenta la velocità di esecuzione.
-	\end{Informazione}
+	\item Aggiungere una spatola di lisozima e Lasciare a temperatura ambiente per \qtyrange{20}{25}{\min}
+	      \begin{Informazione}
+		      La quantità di lisozima aggiunta aumenta la velocità di esecuzione.
+	      \end{Informazione}
 	\item Aggiungere \qty{10}{\micro\litre} di \enzima{DNAsi} e \qty{10}{\milli\Molar} \ch{MgCl2}
-	\begin{myBox}
-		Abbiamo calcolato la quantità di prelievo di \ch{MgCl2} tramite la formula di diluizione:
-		\begin{gather*}
-			V_i \cdot C_i = V_f \cdot V_i \\
-		 	x \cdot \qty{1}{\Molar}= \qty{0.56}{\ml} \cdot \qty{0.01}{\Molar}\\
-			\ch{MgCl2} \rightarrow \frac{\qty{0.56}{\ml} \cdot \qty{0.01}{\Molar}}{\qty{1}{\Molar}} = \qty{5.6}{\micro\litre}
-		\end{gather*}
-	\end{myBox}
+	      \begin{myBox}
+		      Abbiamo calcolato la quantità di prelievo di \ch{MgCl2} tramite la formula di diluizione:
+		      \begin{gather*}
+			      V_i \cdot C_i = V_f \cdot V_i \\
+			      x \cdot \qty{1}{\Molar}= \qty{0.56}{\ml} \cdot \qty{0.01}{\Molar}\\
+			      \ch{MgCl2} \rightarrow \frac{\qty{0.56}{\ml} \cdot \qty{0.01}{\Molar}}{\qty{1}{\Molar}} = \qty{5.6}{\micro\litre}
+		      \end{gather*}
+	      \end{myBox}
 	\item Incubare per \qty{10}{\min} a temperatura ambiente.
 	\item Aggiungere \qty{1}{\ml\per\g} di tampone detergente (\qty{0.7}{\ml}).
 	\item Centrifugare per \qty{10}{\min} a \qty{12000}{\giri} in modo da precipitare i corpi di inclusione.
-	\item Lavare il pellet con tampone Triton: \qty{1}{\ml\per\g}. 
-	\begin{Note}
-		Il lavaggio viene effettuato per rimuovere i contaminanti batterici e isolare i corpi di inclusione.
-	\end{Note}
+	\item Lavare il pellet con tampone Triton: \qty{1}{\ml\per\g}.
+	      \begin{Note}
+		      Il lavaggio viene effettuato per rimuovere i contaminanti batterici e isolare i corpi di inclusione.
+	      \end{Note}
 	\item Centrifugare per \qty{10}{\min} a \qty{12000}{\giri} in modo da precipitare i corpi di inclusione.
 	\item Lavare i corpi di inclusione in \qty{500}{\micro\litre} di \ch{H2O} per togliere eventuali residui di Triton.
 	\item Centrifugare per 10 minuti a \qty{12000}{\giri} in modo da precipitare i corpi di inclusione.
@@ -91,28 +91,28 @@
 	\item Aggiungere \qty{10}{\milli\Molar} \ch{MgCl2} (stock \qty{1}{\Molar}). È il cofattore della \enzima{DNasi} che ne permette il funzionamento.
 	\item Incubare per \qty{10}{\min} a temperatura ambiente.
 	\item Centrifugare per  \qty{10}{\min} a \qty{12000}{\giri}.
-	\item Recuperare il surnatante. 	
+	\item Recuperare il surnatante.
 \end{enumerate}
 
 
-	
+
 \begin{table}[H]
 	\begin{tblr}{
 		colspec={
-			X[c]X[2,c]X[2,c]X[2,c]X[2,c]
+		X[c]X[2,c]X[2,c]X[2,c]X[2,c]
 		},
 		cell{2}{1} = {r=3}{c},
 		vline{2-5} = {1}{-}{},
 		hline{2,5} = {1}{-}{},
 		hline{2,5} = {2}{-}{},
-	}
-	\toprule
-		& Tara Falcon 		& Coltura 	& Pellet 	& Tampone di Lisi \\
-	LHC & 12.7675 \unit{\g} & 13.0227 \unit{\g} & \fpMathSub{13.0227}{12.7675} \unit{\g} & \fpMathMult{\fpMathSub{13.0227}{12.7675}}{0.8} \unit{\ml}\\
-		& 12.5282 \unit{\g} & 12.7336 \unit{\g} & \fpMathSub{12.7336}{12.5282} \unit{\g} & \fpMathMult{\fpMathSub{12.7336}{12.5282}}{0.8} \unit{\ml}\\
-		& 12.5312 \unit{\g} & 12.7628 \unit{\g} & \fpMathSub{12.7628}{12.5312} \unit{\g} & \fpMathMult{\fpMathSub{12.7628}{12.5312}}{0.8} \unit{\ml}\\
-	GFP & 12.69 \unit{\g} 	& 12.9907 \unit{\g} & \fpMathSub{12.9907}{12.69} \unit{\g} 	 & \fpMathMult{\fpMathSub{12.9907}{12.69}}{0.8} \unit{\ml}\\
-	\bottomrule
+			}
+		\toprule
+		    & Tara Falcon       & Coltura           & Pellet                                 & Tampone di Lisi                                           \\
+		LHC & 12.7675 \unit{\g} & 13.0227 \unit{\g} & \fpMathSub{13.0227}{12.7675} \unit{\g} & \fpMathMult{\fpMathSub{13.0227}{12.7675}}{0.8} \unit{\ml} \\
+		    & 12.5282 \unit{\g} & 12.7336 \unit{\g} & \fpMathSub{12.7336}{12.5282} \unit{\g} & \fpMathMult{\fpMathSub{12.7336}{12.5282}}{0.8} \unit{\ml} \\
+		    & 12.5312 \unit{\g} & 12.7628 \unit{\g} & \fpMathSub{12.7628}{12.5312} \unit{\g} & \fpMathMult{\fpMathSub{12.7628}{12.5312}}{0.8} \unit{\ml} \\
+		GFP & 12.69 \unit{\g}   & 12.9907 \unit{\g} & \fpMathSub{12.9907}{12.69} \unit{\g}   & \fpMathMult{\fpMathSub{12.9907}{12.69}}{0.8} \unit{\ml}   \\
+		\bottomrule
 	\end{tblr}
 	\caption{Dati sperimentali}\label{tab:pesiRel9}
 \end{table}
@@ -120,30 +120,30 @@
 
 
 \begingroup
-	\newpage
-	\vspace*{-1.2cm}
-	\photo{
-		\img{9-01}{\\Soluzioni di LHC e GFP}{9-01}{}
-	}{
-		\img{9-02}{\\Pellet LHC e GFP\\\phantom{}}{9-02}{}
-	}{
-		\img{9-03}{\\Aggiunta di buffer di lisi}{9-03}{}		
-	}
+\newpage
+\vspace*{-1.2cm}
+\photo{
+	\img{9-01}{\\Soluzioni di LHC e GFP}{9-01}{}
+}{
+	\img{9-02}{\\Pellet LHC e GFP\\\phantom{}}{9-02}{}
+}{
+	\img{9-03}{\\Aggiunta di buffer di lisi}{9-03}{}
+}
 
-	% \vspace{0.1cm}
-	\photo{
-		\img{9-04}{\\Aggiunta di lisozimi\\phantom{}}{9-04}{}
-	}{
-		\img{9-05}{\\LHC con aggiunta di \ch{MgCl2} e \enzima{DNAsi}}{9-05}{}
-	}{
-		\img{9-06}{\\LHC -- primo lavaggio con Triton}{9-06}{}		
-	}
+% \vspace{0.1cm}
+\photo{
+	\img{9-04}{\\Aggiunta di lisozimi\\phantom{}}{9-04}{}
+}{
+	\img{9-05}{\\LHC con aggiunta di \ch{MgCl2} e \enzima{DNAsi}}{9-05}{}
+}{
+	\img{9-06}{\\LHC -- primo lavaggio con Triton}{9-06}{}
+}
 
-	% \vspace{-0.05cm}
-	\photo{
-		\img{9-07}{\\GFP surnatande (a sinistra) e precipitato\\\phantom{}}{9-07}{}
-	}{
-		\img{9-08}{\\Risospensione nel tampone di ricostituzione}{9-08}{}
-	}{
-	}
+% \vspace{-0.05cm}
+\photo{
+	\img{9-07}{\\GFP surnatande (a sinistra) e precipitato\\\phantom{}}{9-07}{}
+}{
+	\img{9-08}{\\Risospensione nel tampone di ricostituzione}{9-08}{}
+}{
+}
 \endgroup

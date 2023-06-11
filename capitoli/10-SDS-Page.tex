@@ -1,0 +1,108 @@
+\section{SDS Page}
+L'\textit{elettroforesi su gel di poliacrilamide con \glsxtrlong{sds}} (SDS PAGE) è una tecnica di separazione elettroforetica delle proteine basata sulle differenze di massa molecolare.
+
+Nel processo di SDS PAGE, i campioni proteici vengono denaturati e trattati con il \gls{sds}, un tensioattivo anionico che conferisce una carica negativa proporzionale alla lunghezza della catena proteica. Questo processo rende le proteine lineari e cariche negativamente, consentendo loro di migrare nel gel di poliacrilamide in base alle loro dimensioni. Il gel di acrilamide si compone di due parti:
+\begin{itemize}
+	\itemb[Stacking gel]: è la parte superiore del gel, con la funzione di concentrare il campione proteico	caricato nei pozzetti, in modo che tutti i campioni comincino la loro migrazione dallo stesso punto di partenza
+	\itemb[Running gel]: è la parte inferiore, con la funzione di separare le proteine in base al loro peso	molecolare. E’ composto degli stessi componenti dello stacking gel, ma in quantità diverse. In particolare la concentrazione di acrilammide può variare: concentrazioni maggiori portano a pori di dimensioni minori e quindi capaci di separare le proteine con risoluzione maggiore
+\end{itemize}
+
+
+\subsection{Materiali e composti utilizzati}
+% \paragraph{Stumentazione} % TODO: scrivere la strumentazione
+\paragraph{Composti utilizzati}
+\begin{itemize}
+	\itemb[Acrilammide]: è un monomero organico che viene utilizzato nella preparazione dei gel di poliacrilamide per l'elettroforesi
+	\itemb[Tris HCl]: Descritto a pagina \pageref{it:compostiUtilizzatiRel8}
+	\itemb[\gls{temed}]: è un agente che viene utilizzato per favorire la polimerizzazione della soluzione di acrilammide, formando una matrice porosa attraverso la quale le proteine possono migrare durante l'elettroforesi
+	\itemb[\gls{aps}]: è utilizzato come iniziatore di polimerizzazione nella preparazione dei gel di poliacrilammide
+	\itemb[Coomassie Brilliant Blue]: è un colorante che si lega alle proteine e produce un'intensa colorazione blu-viola
+\end{itemize}
+
+
+\subsection{Protocollo}
+
+\subsubsection{Preparazione dei gel di acrilammide}
+\begin{Informazione}
+	Il gel di \iupac{acrilammide} si formano tramite copolimerizzazione di \iupac{acrilamide}, per creare i ponti tra queste molecole di utilizza il TEMED. La reazione in questione è molto ``lenta'', per velocizzare la reazione si utilizza l'APS come catalizzatore.
+\end{Informazione}
+
+\noindent Preparare i due gel di corsa in due Falcon da \qty{15}{\ml} con i seguenti componenti:
+
+\begin{table}[H]
+	\begin{tblr}{
+		colspec={X|X[c]|X[c]},
+		hline{2} = {1}{-}{},
+		hline{2} = {2}{-}{},
+		}
+		\toprule
+		                                               & running gel (diluito \qty{12}{\percent}) & stacking gel (diluito \qty{4}{\percent}) \\
+		\iupac{Acrilammide} (\qty{40}{\percent})       & \qty{3}{\ml}                             & \qty{1}{\ml}                             \\
+		\qty{1.5}{\Molar} Tris \ch{HCl} \pH\ \num{8.8} & \qty{2.5}{\ml}                           &                                          \\
+		\qty{1.5}{\Molar} Tris \ch{HCl} \pH\ \num{6.8} &                                          & \qty{2.5}{\ml}                           \\
+		\ch{H2O}                                       & Fino a \qty{10}{\ml}                     & Fino a \qty{10}{\ml}                     \\
+		TEMED                                          & \qty{7.5}{\ml}                           & \qty{37.7}{\ml}                          \\
+		\qty{10}{\percent} APS                         & \qty{10}{\micro\litre}                   & \qty{80}{\micro\litre}                   \\
+		\bottomrule
+	\end{tblr}
+\end{table}
+
+\begin{Attenzione}
+	L'aggiunta di questi componenti deve essere effettuata sotto coppa chimica a causa della tossicità dell'\iupac{acrilammide}.
+\end{Attenzione}
+
+\begin{Note}
+	L'APS deve essere aggiunta per ultima e la soluzione deve essere versata velocemente nella vaschetta perché è il composto che permette la polimerizzazione.
+\end{Note}
+
+\subsubsection{Preparazione elettroforesi}
+\begin{enumerate}
+	\item Inserire il running gel nella vaschetta da corsa (circa \qty{5}{\micro\litre})
+	\item Inserire \qty{200}{\micro\litre} di \iupac{isopropanolo} (o \iupac{isobutanolo})
+	      \begin{Note}
+		      Aggiunta di \iupac{isopropanolo} serve per rompere la capillarità e l'adesione che il gel crea con i vetri della vaschetta da corsa rendendo il bordo del gel dritto.
+	      \end{Note}
+	\item Eliminare l’isopropanolo e lavare ripetutamente con acqua distillata per eliminare eventuali residui.
+	\item Posizionare il pettinino, leggermente rialzato per poter inserire lo stacking gel
+	\item Inserire lo stacking gel nella vaschetta da corsa.
+	\item Abbassare il pettinino
+\end{enumerate}
+
+\subsubsection{Preparazione campioni}
+\begin{enumerate}
+	\item Diluire il campione in loading buffer
+	\item Bollire il campione a \qty{100}{\celsius} per \qty{30}{\sec}
+	\item Centrifugare
+	\item Caricare sul gel i campioni. Schema di caricamento:
+
+	      \begin{tblr}{colspec={X[c]X[c]X[c]X[c]X[c]},hlines,vlines}
+		      Marker                 & LHC                    & LHC                   & GFP                    & GFP                   \\
+		      \qty{10}{\micro\litre} & \qty{10}{\micro\litre} & \qty{5}{\micro\litre} & \qty{10}{\micro\litre} & \qty{5}{\micro\litre} \\
+	      \end{tblr}
+	      \begin{Note}
+		      Si utilizzano volumi diversi perché non sappiamo quanto è concentrato il nostro campione
+	      \end{Note}
+\end{enumerate}
+
+\subsubsection{Caricamento vaschetta di corsa}
+\begin{enumerate}
+	\item Inserire il tampone inferiore nella vaschetta di contenimento
+	\item Inserire la vaschetta di corsa, contenente i gel, nella vaschetta di contenimento
+	\item Inserire il tampone superiore
+	      \begin{Note}
+		      I tamponi di corsa sono stati preparati prima dell’esperienza.
+	      \end{Note}
+	\item Lasciar correre i campioni per 1 ora circa.
+
+\end{enumerate}
+
+\subsubsection{Colorazione al Coomassie}
+La colorazione al Coomassie è una tecnica utilizzata per la rilevazione e la visualizzazione delle proteine. La procedura dice di:
+\begin{enumerate}
+	\item Immergere il gel nella soluzione di colorazione
+	\item Scaldare in microonde per accelerare il legame con il colorante
+	\item Mettere il gel in agitazione e attendere
+	\item Lavare con acqua distillata
+\end{enumerate}
+
+% TODO: inserire immagini
