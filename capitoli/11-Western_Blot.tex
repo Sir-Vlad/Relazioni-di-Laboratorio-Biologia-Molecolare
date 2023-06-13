@@ -1,12 +1,7 @@
 \section{Western Blotting e Cromatografia di affinità}
-Il \textbf{Western blotting} è una tecnica analitica che permette di rivelare, analizzare e quantificare le proteine. Questo metodo è utilizzato per rivelare molecole proteiche specifiche in campioni complessi.
-
-Il Western blotting comporta tipicamente la separazione delle proteine mediante elettroforesi su gel seguita dal trasferimento su una membrana di nitrocellulosa.
-
-Nel Western blotting le proteine vengono identificate mediante legami con anticorpi specifici. Generalmente si ricorre a una opportuna combinazione di un anticorpo primario e di un anticorpo secondario coniugato con HRP o AP per la rivelazione chemiluminescente o colorimetrica grazie all'impiego di un substrato appropriato. In alternativa, è possibile utilizzare un anticorpo primario o secondario con marcatura fluorescente per la visualizzazione diretta.
 
 \subsection{Materiali e composti utilizzati}
-\paragraph{Strumentazione}
+% \paragraph{Strumentazione}
 
 \paragraph{Composti utilizzati}
 \begingroup
@@ -27,7 +22,7 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 			\item \qty{0.2}{\percent} Ponceau Red
 			\item \qty{3}{\percent} \iupac{acido tricloroacetico}
 		\end{itemize}
-		\itemb[Tampone SBS \pH\ {\boldmath\num{7.2}} 10X]:
+		\itemb[Tampone PBS \pH\ {\boldmath\num{7.2}} 10X]:
 		\begin{itemize}[squareItem]
 			\item \qty{1.37}{\g} \ch{NaCl}
 			\item \qty{27}{\milli\Molar} \ch{KCl}
@@ -38,7 +33,7 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 		\begin{itemize}[squareItem]
 			\item Tampone SBS \pH\ \num{7.2}
 			\item \qty{0.2}{\percent} Tween
-			\item \qty{5}{\percent} latte scremato in polvere
+			\item \qty{5}{\percent} latte scremato in polvere\footnote{Utilizzato per saturare la membrana grazie alle sue  proteine, come albumina, che si legano in maniera non specifica. In più è semplice da ottenere e ha un costo basso.}
 		\end{itemize}
 		\itemb[Soluzione di sviluppo]:
 		\begin{itemize}[squareItem]
@@ -55,6 +50,14 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 
 \subsection{Protocollo}
 \subsubsection{Western Blot}
+\begin{Informazione}
+	Il \textbf{Western blotting} è una tecnica analitica che permette di rivelare, analizzare e quantificare le proteine. Questo metodo è utilizzato per rivelare molecole proteiche specifiche in campioni complessi. Comporta tipicamente la separazione delle proteine mediante elettroforesi su gel seguita dal trasferimento su una membrana di nitrocellulosa.
+
+	\vspace*{.3cm}
+	Nel \textit{Western blotting} le proteine vengono identificate mediante legami con anticorpi specifici. Generalmente si ricorre a una opportuna combinazione di un anticorpo primario e di un anticorpo secondario coniugato per la rivelazione chemiluminescente o colorimetrica grazie all'impiego di un substrato appropriato. In alternativa, è possibile utilizzare un anticorpo primario o secondario con marcatura fluorescente per la visualizzazione diretta.
+\end{Informazione}
+
+Preparare il gel da sottoporre a western blot seguendo il protocollo di SDS Page dal punto \hyperref[ssec:sds-page-protocolloA]{A} al \hyperref[ssec:sds-page-protocolloD]{D}:
 \begin{enumerate}
 	\item Al termine della corsa elettroforetica, sotto cappa chimica, immergere il gel nel tampone di trasferimento per \qty{30}{\sec}.
 	\item All’interno del tampone di trasferimento, assemblare il sandwich:
@@ -85,23 +88,20 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 		      La procedura è reversibile e non invasiva per permettere ulteriori test di carattere immunologico sul campione.
 	      \end{Note}
 	\item Lavare con acqua distillata per l'eccesso di colorante
-	\item Segnare le bande con una matita
-	\item Incubare la membrana nella soluzione di bloccaggio per \qty{1}{\hour} a temperatura ambiente, in agitazione. Questo procedimento è effettuato per saturare eventuali siti aspecifici della nitrocellulosa.
+	\item Segnare le bande con una matita prima che il colorante svanisca
+	\item Incubare la membrana nella soluzione di bloccaggio per \qty{1}{\hour} a temperatura ambiente, in agitazione. 
+	\begin{Note}
+		Questo procedimento è effettuato per saturare eventuali siti aspecifici della nitrocellulosa. Viene eseguito per evitare nei successivi passaggi che l'antibiotico primario non si leghi specificamente alla proteina di interesse. 
+	\end{Note}
 
 	      % Nota: la soluzione di bloccaggio è una soluzione proteica contenente latte in polvere a pH 7.2
 
-	\item Incubare per \qty{1}{\hour} o più a temperatura in agitazione con anticorpo primario diluito nella soluzione di bloccaggio
+	\item Incubare per \qty{1}{\hour} o più a temperatura ambiente in agitazione con anticorpo primario diluito nella soluzione di bloccaggio
 	\item Lavare con la soluzione di bloccaggio 3 volte per \qty{5}{\min}, a temperatura ambiente, in agitazione. Procedimento effettuato per rimuovere eventuali anticorpi non legati
 	\item Incubare per circa \qty{1}{\hour} a temperatura ambiente, con l’anticorpo secondario coniugato con la fosfatasi alcalina.
 	\item Lavare 2 volte con la soluzione di bloccaggio per \qty{5}{\min} a temperatura ambiente
 	\item Lavare con \qty{10}{\ml} di soluzione contenente \qty{1}{\ml} di tampone PBS diluito in acqua distillata
-	\item Incubare il filtro nella soluzione di sviluppo. Composizione soluzione di sviluppo:
-	      \begin{itemize}[person]
-		      \item \qty{1.3}{\ml} di soluzione di sviluppo
-		      \item Acqua fino al raggiungimento di \qty{10}{\ml} di volume
-		      \item \qty{66}{\micro\litre} di NBT
-		      \item \qty{33}{\micro\litre} di BCIP
-	      \end{itemize}
+	\item Incubare il filtro nella soluzione di sviluppo.
 	\item Quando la colorazione ha raggiunto un buon contrasto si blocca la reazione con \ch{H2O}
 \end{enumerate}
 
@@ -121,7 +121,7 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 \begin{enumerate}
 	\item Aggiungere circa \qty{0.5}{\cm} di resina all’interno della colonna.
 	      \begin{Note}
-		      La resina è conservata in etanolo \qty{20}{\percent} perchè
+		      La resina è conservata in etanolo \qty{20}{\percent} per preservare l'integrità e la contaminazione da parte di funghi o batteri.
 	      \end{Note}
 	\item Attendere la decantazione
 	\item Aggiungere \qty{1}{\ml} di nichel.
@@ -138,10 +138,27 @@ Nel Western blotting le proteine vengono identificate mediante legami con antico
 	\item Analizzare i campioni con luce blu e con spettrofotometro
 \end{enumerate}
 
-\begin{minipage}{0.3\linewidth}
+\photo{
 	\img{11-01}{\\Menbrana dopo il trasferimento}{11-01}{trim={10cm 10cm 10cm 10cm},clip}
-\end{minipage}
-\hspace{0.35cm}
-\begin{minipage}{0.3\linewidth}
-	\img{11-02}{\\Campioni alla luce blu}{11-02}{}
-\end{minipage}
+}{
+	\img{11-02}{\\Campioni alla luce blu\\\phantom{}}{11-02}{}
+}{
+	\img{11-03}{\\Membrana alla fine dell'esperienza}{11-03}{}
+}
+
+\begin{figure}[H]
+	\centering
+	\parbox{.75\textwidth}{
+		\begin{riquadro}
+			\strut\vspace*{-\baselineskip}\newline
+			\includegraphics[
+				width=.9\textwidth,
+				center,
+				trim={10cm 10cm 10cm 10cm},
+				clip,
+				keepaspectratio
+				]{11-04}
+			\caption{\\Spettro di assorbimento}\label{img:11-04}
+		\end{riquadro}
+	}
+\end{figure}

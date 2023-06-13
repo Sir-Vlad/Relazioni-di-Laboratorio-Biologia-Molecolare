@@ -1,7 +1,7 @@
-\documentclass[a4paper,12pt,oneside]{article} % draft per revisione
+\documentclass[a4paper,12pt,oneside,final]{article} % draft per revisione
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[italian]{babel}
+\usepackage[english,italian]{babel}
 \usepackage[top=1in,bottom=1in,right=1in,left=1in]{geometry}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACCHETTI DEBUG %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,7 +106,7 @@
 \newabbreviation[category={long}]{hepes}{HEPES}{\iupac{acido 2-[4-(2-idrossietil)piperazin-1-il]etansolfonico}}
 \newabbreviation[category={long}]{lds}{LDS}{\iupac{dodecil solfato di litio}}
 \newabbreviation[category={long}]{temed}{TEMED}{tetrametiletilendiamina}
-\newabbreviation[category={long}]{aps}{APS}{Perossidisolfato d'ammonio}
+\newabbreviation[category={long}]{aps}{APS}{perossidisolfato d'ammonio}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TABELLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -164,10 +164,12 @@
 \hypersetup{
 	pdftitle={Relazioni di Laboratorio di Biologia Molecolare},
 	pdfauthor={Mattia Frigiola},
-	%final=true,
+	final=true,
 	colorlinks=true,
 	linkcolor=blue,
 }
+\usepackage[english,italian]{cleveref}
+\crefrangelabelformat{figure}{#3#1#4--#5\crefstripprefix{#1}{#2}#6}
 \usepackage[numbered]{bookmark}
 
 \input{command.sty} % MIEI COMANDI
@@ -186,16 +188,23 @@
 		\usepackage{kpfonts}
 		\usepackage{graphicx}
 		\usepackage{txfonts}
+		\renewcommand{\frontinstitutionfont}{
+			\fontsize{14}{17}\scshape
+		}
+		\renewcommand{\frontdivisionfont}{
+			\fontsize{12}{16}\scshape
+		}
 	\end{Preambolo*}
+	\Universita{Verona}
 	\Interfacolta{Dipartimento di Informatica}
 
-	\Corso[laurea]{Bioinformatica}
+	\Corso[Laurea]{Bioinformatica}
 
 	\Titolo{\Huge{\textbf{\textsl{Relazioni di Laboratorio di\\ Biologia Molecolare}}}}
 
 	\Relatore{\Large{\slshape{Stefano Capaldi}}}
 	\Relatore{\Large{\slshape{Matteo Ballottari}}}
-	\Relatore{\Large{\slshape{Nico Betterle} $\varheartsuit$}}
+	\Relatore{\Large{\slshape{Nico Betterle}}}
 	\NRelatore{Docente}{Docenti}
 	\Punteggiatura{}
 
